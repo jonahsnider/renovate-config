@@ -189,7 +189,5 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode
 
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-.pnp.*
+.yarn/unplugged
+.yarn/build-state.yml
