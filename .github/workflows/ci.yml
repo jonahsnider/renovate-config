@@ -17,7 +17,7 @@ jobs:
           node-version: '12.16.2'
       - name: Get yarn cache
         id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -45,9 +45,9 @@ jobs:
           node-version: '12.16.2'
       - name: Install Yarn
         run: curl -o- -L https://yarnpkg.com/install.sh | bash
-      - name: Get yarn cache directory path
+      - name: Get yarn config get cacheFolderectory path
         id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Cache dependencies
         uses: actions/cache@v1
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
