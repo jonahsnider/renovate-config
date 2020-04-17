@@ -14,13 +14,6 @@
 	"license": "Apache-2.0",
 	"main": "./tsc_output/index.js",
 	"name": "@pizzafox/renovate-config",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/pizzafox/renovate-config.git"
-	},
-	"scripts": {
-		"style": "prettier --check ."
-	},
 	"renovate-config": {
 		"default": {
 			"$schema": "https://docs.renovatebot.com/renovate-schema.json",
@@ -41,6 +34,13 @@
 			],
 			"semanticCommits": true
 		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pizzafox/renovate-config.git"
+	},
+	"scripts": {
+		"style": "prettier --check ."
 	},
 	"version": "0.0.0-development"
 }
