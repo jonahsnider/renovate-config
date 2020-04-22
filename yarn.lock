@@ -202,7 +202,7 @@ __metadata:
   resolution: "@pizzafox/renovate-config@workspace:."
   dependencies:
     prettier: 2.0.4
-    semantic-release: 17.0.6
+    semantic-release: 17.0.7
   languageName: unknown
   linkType: soft
 
@@ -3291,12 +3291,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^0.8.0":
-  version: 0.8.2
-  resolution: "marked@npm:0.8.2"
+"marked@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "marked@npm:1.0.0"
   bin:
     marked: bin/marked
-  checksum: 2/49148dd7898fcd7215458a6ba5dec895a8343f2823c12da527dd40b29ed71c5235cba06a19833cc61e138811fa459484550a69ad89aa42af9f6e87b9dad19b7d
+  checksum: 2/4121f2f5cb7130e57571780181cddac9e3a8692486045f760baad14c6d896c9481180ad8ab8a36fb9476375ddaa860dbc7d29ecf386b2bfa47d4450a9f866cd4
   languageName: node
   linkType: hard
 
@@ -4967,9 +4967,9 @@ resolve@^1.10.0:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.0.6":
-  version: 17.0.6
-  resolution: "semantic-release@npm:17.0.6"
+"semantic-release@npm:17.0.7":
+  version: 17.0.7
+  resolution: "semantic-release@npm:17.0.7"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -4988,7 +4988,7 @@ resolve@^1.10.0:
     hook-std: ^2.0.0
     hosted-git-info: ^3.0.0
     lodash: ^4.17.15
-    marked: ^0.8.0
+    marked: ^1.0.0
     marked-terminal: ^4.0.0
     micromatch: ^4.0.2
     p-each-series: ^2.1.0
@@ -5001,7 +5001,7 @@ resolve@^1.10.0:
     yargs: ^15.0.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 2/66f802d7ce47f1c6abd4163d8c697aa9b94109c606def6643c3305730541b7382742a7355d74fba39693996478e37246a8e3f971a5f157a6a3809bcf5b06c618
+  checksum: 2/3ae7f88cc035c94e36cdf512705825e0965ec64d3fbcae743e113fb43b785b8ffc2de2af3a31700c5288e2baa3968e809e59bc8319a1e683c675f8a5838d9745
   languageName: node
   linkType: hard
 
