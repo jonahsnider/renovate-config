@@ -21,7 +21,7 @@
 				"config:base",
 				":semanticCommitTypeAll(build)",
 				":disableRateLimiting",
-				":automergeMinor"
+				":automergePatch"
 			],
 			"labels": [
 				"dependencies"
