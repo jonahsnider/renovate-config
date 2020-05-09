@@ -20,18 +20,11 @@
 			"extends": [
 				"config:base",
 				":semanticCommitTypeAll(build)",
-				":disableRateLimiting"
+				":disableRateLimiting",
+				":automergeMinor"
 			],
 			"labels": [
 				"dependencies"
-			],
-			"packageRules": [
-				{
-					"automerge": true,
-					"updateTypes": [
-						"patch"
-					]
-				}
 			],
 			"semanticCommits": true
 		}
