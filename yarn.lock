@@ -202,7 +202,7 @@ __metadata:
   resolution: "@pizzafox/renovate-config@workspace:."
   dependencies:
     prettier: 2.0.5
-    semantic-release: 17.0.7
+    semantic-release: 17.0.8
   languageName: unknown
   linkType: soft
 
@@ -4967,9 +4967,9 @@ resolve@^1.10.0:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.0.7":
-  version: 17.0.7
-  resolution: "semantic-release@npm:17.0.7"
+"semantic-release@npm:17.0.8":
+  version: 17.0.8
+  resolution: "semantic-release@npm:17.0.8"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -5001,7 +5001,7 @@ resolve@^1.10.0:
     yargs: ^15.0.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 2/3ae7f88cc035c94e36cdf512705825e0965ec64d3fbcae743e113fb43b785b8ffc2de2af3a31700c5288e2baa3968e809e59bc8319a1e683c675f8a5838d9745
+  checksum: 2/a4062d62d7ab752d5ae690fe2c3effa7372e067aa82b9bbc17a5aeb51b553e9ef7daf12a9eecf54069c26e4574904609831c0b569763488bbb9d0a601632b0bd
   languageName: node
   linkType: hard
 
