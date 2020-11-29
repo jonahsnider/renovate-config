@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackPool": [
       [
         "prettier",
-        "npm:2.0.5"
+        "npm:2.2.1"
       ],
       [
         "semantic-release",
@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["prettier", "npm:2.0.5"],
+            ["prettier", "npm:2.2.1"],
             ["semantic-release", "npm:17.3.0"]
           ],
           "linkType": "SOFT",
@@ -271,7 +271,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@pizzafox/renovate-config", "workspace:."],
-            ["prettier", "npm:2.0.5"],
+            ["prettier", "npm:2.2.1"],
             ["semantic-release", "npm:17.3.0"]
           ],
           "linkType": "SOFT",
@@ -4996,10 +4996,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
-        ["npm:2.0.5", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.0.5-f0ee4e15ce-d249d89361.zip/node_modules/prettier/",
+        ["npm:2.2.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.2.1-e0670992f8-92c6c9f4b8.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.0.5"]
+            ["prettier", "npm:2.2.1"]
           ],
           "linkType": "HARD",
         }]
