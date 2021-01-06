@@ -12,7 +12,7 @@ jobs:
       - name: Checkout git repository
         uses: actions/checkout@v2
       - name: Setup Node.js for use with Actions
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: '12.16.2'
       - name: Install dependencies with Yarn
@@ -30,7 +30,7 @@ jobs:
       - name: Checkout git repository
         uses: actions/checkout@v2
       - name: Setup Node.js for use with Actions
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: '12.16.2'
       - name: Install Yarn
