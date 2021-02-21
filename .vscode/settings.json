@@ -1,5 +1,10 @@
 {
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": false
-	}
+	},
+	"search.exclude": {
+		"**/.yarn": true,
+		"**/.pnp.*": true
+	},
+	"prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
