@@ -25,7 +25,24 @@
 			"labels": [
 				"dependencies"
 			],
-			"semanticCommits": true
+			"semanticCommits": true,
+			"packageRules": [
+				{
+					"groupName": "prisma",
+					"matchPackagePatterns": [
+						"^@prisma/",
+						"^prisma$"
+					]
+				},
+				{
+					"groupName": "typescript-xo",
+					"matchPackagePatterns": [
+						"^xo$",
+						"^typescript$",
+						"^eslint-plugin-prettier$"
+					]
+				}
+			]
 		}
 	},
 	"repository": {
