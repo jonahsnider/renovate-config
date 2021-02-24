@@ -39,7 +39,8 @@
 					"matchPackagePatterns": [
 						"^xo$",
 						"^typescript$",
-						"^eslint-plugin-prettier$"
+						"^eslint-plugin-prettier$",
+            "^eslint-config-xo(space|react|typescript|flow)?$"
 					]
 				}
 			]
