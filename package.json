@@ -35,6 +35,13 @@
 					]
 				},
 				{
+					"groupName": "size-limit",
+					"matchPackagePatterns": [
+						"^@size-limit/",
+						"^size-limit$"
+					]
+				},
+				{
 					"groupName": "typescript-xo",
 					"matchPackagePatterns": [
 						"^xo$",
