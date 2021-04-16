@@ -12,7 +12,7 @@
 		"semantic-release": "17.4.2"
 	},
 	"license": "Apache-2.0",
-	"name": "@pizzafox/renovate-config",
+	"name": "@jonahsnider/renovate-config",
 	"renovate-config": {
 		"default": {
 			"$schema": "https://docs.renovatebot.com/renovate-schema.json",

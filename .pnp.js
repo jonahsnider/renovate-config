@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "@pizzafox/renovate-config",
+        "name": "@jonahsnider/renovate-config",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["@pizzafox/renovate-config", ["workspace:."]]
+      ["@jonahsnider/renovate-config", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -84,6 +84,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yargs", "npm:8.0.2"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["@jonahsnider/renovate-config", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["@jonahsnider/renovate-config", "workspace:."],
+            ["prettier", "npm:2.2.1"],
+            ["semantic-release", "npm:17.4.2"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["@nodelib/fs.scandir", [
@@ -246,17 +257,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:13.11.1"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["@pizzafox/renovate-config", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["@pizzafox/renovate-config", "workspace:."],
-            ["prettier", "npm:2.2.1"],
-            ["semantic-release", "npm:17.4.2"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["@semantic-release/commit-analyzer", [

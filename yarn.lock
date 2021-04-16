@@ -43,6 +43,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jonahsnider/renovate-config@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@jonahsnider/renovate-config@workspace:."
+  dependencies:
+    prettier: 2.2.1
+    semantic-release: 17.4.2
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.3":
   version: 2.1.3
   resolution: "@nodelib/fs.scandir@npm:2.1.3"
@@ -188,15 +197,6 @@ __metadata:
   checksum: 5a99a37520974ede63d4be6f9b42e8a26e4d310cf28b2c05ebc941cc58f9aeae9aa64c894a571c7e55e4a093eba0486bf2b0130504b68371c8e5f45c20520042
   languageName: node
   linkType: hard
-
-"@pizzafox/renovate-config@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@pizzafox/renovate-config@workspace:."
-  dependencies:
-    prettier: 2.2.1
-    semantic-release: 17.4.2
-  languageName: unknown
-  linkType: soft
 
 "@semantic-release/commit-analyzer@npm:^8.0.0":
   version: 8.0.1
