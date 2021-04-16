@@ -13,6 +13,9 @@
 	},
 	"license": "Apache-2.0",
 	"name": "@jonahsnider/renovate-config",
+	"publishConfig": {
+		"access": "public"
+	},
 	"renovate-config": {
 		"default": {
 			"$schema": "https://docs.renovatebot.com/renovate-schema.json",
