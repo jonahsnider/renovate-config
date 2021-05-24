@@ -23,7 +23,8 @@
 				"config:base",
 				":semanticCommitTypeAll(build)",
 				":disableRateLimiting",
-				":automergePatch"
+				":automergePatch",
+				"schedule:daily"
 			],
 			"labels": [
 				"dependencies"
