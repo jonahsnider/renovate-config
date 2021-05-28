@@ -53,6 +53,12 @@
 						"^eslint-plugin-prettier$",
 						"^eslint-config-xo(-(space|react|typescript|flow))?$"
 					]
+				},
+				{
+					"groupName": "ts-jest",
+					"matchPackagePatterns": [
+						"(ts\\-)?jest"
+					]
 				}
 			]
 		}
