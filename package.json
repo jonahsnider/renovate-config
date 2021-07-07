@@ -51,7 +51,8 @@
 						"^xo$",
 						"^typescript$",
 						"^eslint-plugin-prettier$",
-						"^eslint-config-xo(-(space|react|typescript|flow))?$"
+						"^eslint-config-xo(-(space|react|typescript|flow))?$",
+						"^prettier-config-xo$"
 					]
 				},
 				{
