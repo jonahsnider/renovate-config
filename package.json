@@ -50,9 +50,10 @@
 					"matchPackagePatterns": [
 						"^xo$",
 						"^typescript$",
+            "^prettier$",
 						"^eslint-plugin-prettier$",
 						"^eslint-config-xo(-(space|react|typescript|flow))?$",
-						"^prettier-config-xo$"
+						"^prettier-config-xo$",
 					]
 				},
 				{
