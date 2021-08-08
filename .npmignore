@@ -2,7 +2,7 @@
 .editorconfig
 .prettierignore
 .prettierrc
-.pnp.js
+.pnp.cjs
 renovate.json
 .vscode
 readme.md
