@@ -61,6 +61,12 @@
 					"matchPackagePatterns": [
 						"(ts\\-)?jest"
 					]
+				},
+				{
+					"groupName": "fontawesome",
+					"packagePatterns": [
+						"^@fortawesome/"
+					]
 				}
 			]
 		}
