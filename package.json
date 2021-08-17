@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"prettier": "2.3.2",
-		"semantic-release": "17.4.4"
+		"semantic-release": "17.4.5"
 	},
 	"license": "Apache-2.0",
 	"name": "@jonahsnider/renovate-config",
