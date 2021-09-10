@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["prettier", "npm:2.3.2"],
+            ["prettier", "npm:2.4.0"],
             ["semantic-release", "npm:17.4.7"]
           ],
           "linkType": "SOFT",
@@ -89,7 +89,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@jonahsnider/renovate-config", "workspace:."],
-            ["prettier", "npm:2.3.2"],
+            ["prettier", "npm:2.4.0"],
             ["semantic-release", "npm:17.4.7"]
           ],
           "linkType": "SOFT",
@@ -5107,10 +5107,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
-        ["npm:2.3.2", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.3.2-4467ec48dc-17ce5784ac.zip/node_modules/prettier/",
+        ["npm:2.4.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.4.0-9f056d9529-ac1bf07566.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.3.2"]
+            ["prettier", "npm:2.4.0"]
           ],
           "linkType": "HARD",
         }]
