@@ -8,7 +8,7 @@
 		"url": "https://github.com/jonahsnider/renovate-config/issues"
 	},
 	"devDependencies": {
-		"prettier": "2.3.2",
+		"prettier": "2.4.0",
 		"semantic-release": "17.4.7"
 	},
 	"license": "Apache-2.0",
