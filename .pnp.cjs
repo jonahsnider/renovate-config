@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@jonahsnider/prettier-config", "npm:1.0.0"],
             ["prettier", "npm:2.4.1"],
             ["semantic-release", "npm:18.0.0"]
           ],
@@ -81,11 +82,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@jonahsnider/prettier-config", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/@jonahsnider-prettier-config-npm-1.0.0-4ce065c9c0-822e4125ac.zip/node_modules/@jonahsnider/prettier-config/",
+          "packageDependencies": [
+            ["@jonahsnider/prettier-config", "npm:1.0.0"],
+            ["@types/prettier", "npm:2.4.1"],
+            ["prettier-config-xo", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@jonahsnider/renovate-config", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
             ["@jonahsnider/renovate-config", "workspace:."],
+            ["@jonahsnider/prettier-config", "npm:1.0.0"],
             ["prettier", "npm:2.4.1"],
             ["semantic-release", "npm:18.0.0"]
           ],
@@ -691,6 +704,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-parse-json-npm-4.0.0-298522afa6-fd6bce2b67.zip/node_modules/@types/parse-json/",
           "packageDependencies": [
             ["@types/parse-json", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/prettier", [
+        ["npm:2.4.1", {
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.4.1-d83bd651f7-df330c2d6f.zip/node_modules/@types/prettier/",
+          "packageDependencies": [
+            ["@types/prettier", "npm:2.4.1"]
           ],
           "linkType": "HARD",
         }]
@@ -4365,6 +4387,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prettier-npm-2.4.1-623aac91ee-cc6830588b.zip/node_modules/prettier/",
           "packageDependencies": [
             ["prettier", "npm:2.4.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier-config-xo", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/prettier-config-xo-npm-2.0.0-bffd2904f0-f5dc2760ee.zip/node_modules/prettier-config-xo/",
+          "packageDependencies": [
+            ["prettier-config-xo", "npm:2.0.0"]
           ],
           "linkType": "HARD",
         }]

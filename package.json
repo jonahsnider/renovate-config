@@ -8,6 +8,7 @@
 		"url": "https://github.com/jonahsnider/renovate-config/issues"
 	},
 	"devDependencies": {
+		"@jonahsnider/prettier-config": "1.0.0",
 		"prettier": "2.4.1",
 		"semantic-release": "18.0.0"
 	},
@@ -16,6 +17,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"prettier": "@jonahsnider/prettier-config",
 	"renovate-config": {
 		"default": {
 			"$schema": "https://docs.renovatebot.com/renovate-schema.json",
