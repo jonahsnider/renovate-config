@@ -1,23 +1,32 @@
 {
-	"author": {
-		"email": "jonah@jonah.pw",
-		"name": "Jonah Snider",
-		"url": "https://jonah.pw"
-	},
+	"name": "@jonahsnider/renovate-config",
+	"version": "0.0.0-development",
 	"bugs": {
 		"url": "https://github.com/jonahsnider/renovate-config/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jonahsnider/renovate-config.git"
+	},
+	"license": "Apache-2.0",
+	"author": {
+		"name": "Jonah Snider",
+		"email": "jonah@jonahsnider.com",
+		"url": "https://jonahsnider.com"
+	},
+	"scripts": {
+		"style": "prettier --check ."
+	},
+	"prettier": "@jonahsnider/prettier-config",
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.0.0",
 		"prettier": "2.4.1",
 		"semantic-release": "18.0.0"
 	},
-	"license": "Apache-2.0",
-	"name": "@jonahsnider/renovate-config",
 	"publishConfig": {
 		"access": "public"
 	},
-	"prettier": "@jonahsnider/prettier-config",
+	"packageManager": "yarn@3.0.2",
 	"renovate-config": {
 		"default": {
 			"$schema": "https://docs.renovatebot.com/renovate-schema.json",
@@ -73,14 +82,5 @@
 				}
 			]
 		}
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jonahsnider/renovate-config.git"
-	},
-	"scripts": {
-		"style": "prettier --check ."
-	},
-	"version": "0.0.0-development",
-	"packageManager": "yarn@3.0.2"
+	}
 }
