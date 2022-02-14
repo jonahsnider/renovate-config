@@ -79,6 +79,12 @@
 					"packagePatterns": [
 						"^@fortawesome/"
 					]
+				},
+				{
+					"groupName": "nestjs",
+					"packagePatterns": [
+						"^@nestjs/"
+					]
 				}
 			]
 		}
