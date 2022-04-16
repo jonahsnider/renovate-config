@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@jonahsnider/prettier-config", "npm:1.1.0"],\
+            ["@jonahsnider/prettier-config", "npm:1.1.1"],\
             ["prettier", "npm:2.6.2"],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
@@ -90,11 +90,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@jonahsnider/prettier-config", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/@jonahsnider-prettier-config-npm-1.1.0-912b67c26f-7ff9579443.zip/node_modules/@jonahsnider/prettier-config/",\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/@jonahsnider-prettier-config-npm-1.1.1-cadc7b6f77-3b1eb1362d.zip/node_modules/@jonahsnider/prettier-config/",\
           "packageDependencies": [\
-            ["@jonahsnider/prettier-config", "npm:1.1.0"],\
-            ["@types/prettier", "npm:2.4.1"],\
+            ["@jonahsnider/prettier-config", "npm:1.1.1"],\
+            ["@types/prettier", "npm:2.6.0"],\
             ["prettier-config-xo", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -105,7 +105,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@jonahsnider/renovate-config", "workspace:."],\
-            ["@jonahsnider/prettier-config", "npm:1.1.0"],\
+            ["@jonahsnider/prettier-config", "npm:1.1.1"],\
             ["prettier", "npm:2.6.2"],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
@@ -717,10 +717,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/prettier", [\
-        ["npm:2.4.1", {\
-          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.4.1-d83bd651f7-df330c2d6f.zip/node_modules/@types/prettier/",\
+        ["npm:2.6.0", {\
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.6.0-68db36c8c1-946f1f82ce.zip/node_modules/@types/prettier/",\
           "packageDependencies": [\
-            ["@types/prettier", "npm:2.4.1"]\
+            ["@types/prettier", "npm:2.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
