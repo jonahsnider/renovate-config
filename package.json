@@ -35,8 +35,7 @@
 				":semanticCommitTypeAll(build)",
 				":disableRateLimiting",
 				":automergeMinor",
-				":automergeBranch",
-				"schedule:daily"
+				":automergeBranch"
 			],
 			"labels": [
 				"dependencies"
