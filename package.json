@@ -26,7 +26,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"packageManager": "yarn@3.2.1",
+	"packageManager": "yarn@3.2.2",
 	"renovate-config": {
 		"default": {
 			"$schema": "https://docs.renovatebot.com/renovate-schema.json",
