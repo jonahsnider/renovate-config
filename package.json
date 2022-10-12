@@ -85,6 +85,13 @@
 					"packagePatterns": [
 						"^@nestjs/"
 					]
+				},
+				{
+					"groupName": "rollup",
+					"packagePatterns": [
+						"^@rollup/",
+						"^rollup-plugin-"
+					]
 				}
 			]
 		}
