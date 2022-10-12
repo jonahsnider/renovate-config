@@ -89,6 +89,7 @@
 				{
 					"groupName": "rollup",
 					"packagePatterns": [
+						"^rollup$",
 						"^@rollup/",
 						"^rollup-plugin-"
 					]
