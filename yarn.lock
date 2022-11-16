@@ -4219,7 +4219,7 @@ resolve@^1.10.0:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>":
   version: 1.16.0
-  resolution: "resolve@patch:resolve@npm%3A1.16.0#~builtin<compat/resolve>::version=1.16.0&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.16.0#~builtin<compat/resolve>::version=1.16.0&hash=c3c19d"
   dependencies:
     path-parse: ^1.0.6
   checksum: 66795ac7755bb81c7f988ed216a4cd2026c09cdec79c9d7feafbd5a485b86d60569450630797a67bc1a0e7ae367e78ae80eb5136aeb653da2c60fbaef1d7ba85
