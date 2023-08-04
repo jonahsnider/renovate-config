@@ -10,6 +10,6 @@ Set your Renovate config to use this config
 
 ```json
 {
-	"extends": ["@jonahsnider"]
+	"extends": ["github>jonahsnider/renovate-config"]
 }
 ```

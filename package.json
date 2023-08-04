@@ -1,6 +1,7 @@
 {
 	"name": "@jonahsnider/renovate-config",
 	"version": "0.0.0-development",
+	"private": true,
 	"bugs": {
 		"url": "https://github.com/jonahsnider/renovate-config/issues"
 	},
@@ -23,78 +24,5 @@
 		"prettier": "3.0.1",
 		"semantic-release": "19.0.5"
 	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"packageManager": "yarn@3.6.1",
-	"renovate-config": {
-		"default": {
-			"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-			"extends": [
-				"config:base",
-				":semanticCommitTypeAll(build)",
-				":disableRateLimiting",
-				":automergeMinor",
-				":automergeBranch"
-			],
-			"labels": [
-				"dependencies"
-			],
-			"semanticCommits": true,
-			"packageRules": [
-				{
-					"groupName": "prisma",
-					"matchPackagePatterns": [
-						"^@prisma/",
-						"^prisma$"
-					]
-				},
-				{
-					"groupName": "size-limit",
-					"matchPackagePatterns": [
-						"^@size-limit/",
-						"^size-limit$"
-					]
-				},
-				{
-					"groupName": "typescript-xo",
-					"matchPackagePatterns": [
-						"^xo$",
-						"^typescript$",
-						"^prettier$",
-						"^eslint-plugin-prettier$",
-						"^eslint-config-xo(-(space|react|typescript|flow))?$",
-						"^prettier-config-xo$",
-						"^@jonahsnider/(xo|prettier)-config$"
-					]
-				},
-				{
-					"groupName": "ts-jest",
-					"matchPackagePatterns": [
-						"(ts\\-)?jest"
-					]
-				},
-				{
-					"groupName": "fontawesome",
-					"packagePatterns": [
-						"^@fortawesome/"
-					]
-				},
-				{
-					"groupName": "nestjs",
-					"packagePatterns": [
-						"^@nestjs/"
-					]
-				},
-				{
-					"groupName": "rollup",
-					"packagePatterns": [
-						"^rollup$",
-						"^@rollup/",
-						"^rollup-plugin-"
-					]
-				}
-			]
-		}
-	}
+	"packageManager": "yarn@3.6.1"
 }
