@@ -22,7 +22,7 @@
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.1.2",
 		"prettier": "3.0.2",
-		"semantic-release": "21.0.8"
+		"semantic-release": "21.0.9"
 	},
 	"packageManager": "yarn@3.6.2"
 }
