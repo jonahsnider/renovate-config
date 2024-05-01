@@ -13,16 +13,21 @@
 			"matchPackagePatterns": ["^@size-limit/", "^size-limit$"]
 		},
 		{
-			"groupName": "typescript-xo",
+			"groupName": "typescript",
+			"matchPackagePatterns": [
+				"^typescript$",
+				"^@tsconfig/"
+			]
+		},
+		{
+			"groupName": "xo",
 			"matchPackagePatterns": [
 				"^xo$",
-				"^typescript$",
 				"^prettier$",
 				"^eslint-plugin-prettier$",
 				"^eslint-config-xo(-(space|react|typescript|flow))?$",
 				"^prettier-config-xo$",
-				"^@jonahsnider/(xo|prettier)-config$",
-				"^@tsconfig/"
+				"^@jonahsnider/(xo|prettier)-config$"
 			]
 		},
 		{
