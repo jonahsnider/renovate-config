@@ -20,6 +20,12 @@
 			]
 		},
 		{
+			"groupName": "serwist",
+			"matchPackagePatterns": [
+				"^@serwist/"
+			]
+		},
+		{
 			"groupName": "xo",
 			"matchPackagePatterns": [
 				"^xo$",
