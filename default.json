@@ -14,16 +14,11 @@
 		},
 		{
 			"groupName": "typescript",
-			"matchPackagePatterns": [
-				"^typescript$",
-				"^@tsconfig/"
-			]
+			"matchPackagePatterns": ["^typescript$", "^@tsconfig/"]
 		},
 		{
 			"groupName": "serwist",
-			"matchPackagePatterns": [
-				"^@serwist/"
-			]
+			"matchPackagePatterns": ["^@serwist/"]
 		},
 		{
 			"groupName": "xo",
