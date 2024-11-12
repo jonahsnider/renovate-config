@@ -21,6 +21,10 @@
 			"matchPackagePatterns": ["^@serwist/"]
 		},
 		{
+			"groupName": "simplewebauthn",
+			"matchPackagePatterns": ["^@simplewebauthn/"]
+		},
+		{
 			"groupName": "xo",
 			"matchPackagePatterns": [
 				"^xo$",
