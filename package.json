@@ -24,5 +24,5 @@
 		"prettier": "3.4.1",
 		"semantic-release": "22.0.12"
 	},
-	"packageManager": "yarn@3.8.6"
+	"packageManager": "yarn@3.8.7"
 }
