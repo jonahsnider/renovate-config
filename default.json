@@ -54,6 +54,10 @@
 		{
 			"groupName": "drizzle",
 			"packagePatterns": ["^drizzle-"]
+		},
+		{
+			"groupName": "bull-board",
+			"packagePatterns": ["^@bull-board/"]
 		}
 	]
 }
