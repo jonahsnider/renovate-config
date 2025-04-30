@@ -1,8 +1,15 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:base", ":semanticCommitTypeAll(build)", ":disableRateLimiting", ":automergeMinor", ":automergeBranch"],
-	"labels": ["dependencies"],
-	"semanticCommits": "enabled",
+	"extends": [
+		"config:recommended",
+		":label(dependencies)",
+		":semanticCommits",
+		":semanticCommitTypeAll(build)",
+		":disableRateLimiting",
+		":automergeMinor",
+		":automergeBranch",
+		":prNotPending"
+	],
 	"packageRules": [
 		{
 			"groupName": "prisma",
