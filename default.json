@@ -66,5 +66,6 @@
 			"groupName": "bull-board",
 			"packagePatterns": ["^@bull-board/"]
 		}
-	]
+	],
+	"timezone": "America/Los_Angeles"
 }
