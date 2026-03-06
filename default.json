@@ -10,6 +10,7 @@
 		":automergeBranch",
 		":prNotPending"
 	],
+	"gitIgnoredAuthors": ["114827586+autofix-ci[bot]@users.noreply.github.com"],
 	"packageRules": [
 		{
 			"groupName": "prisma",
