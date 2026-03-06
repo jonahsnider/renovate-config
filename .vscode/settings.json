@@ -1,10 +1,16 @@
 {
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": "never"
 	},
+	"prettier.prettierPath": ".yarn/sdks/prettier/index.js",
 	"search.exclude": {
-		"**/.yarn": true,
-		"**/.pnp.*": true
-	},
-	"prettier.prettierPath": ".yarn/sdks/prettier/index.js"
+		"**/.pnp.*": true,
+		"**/.yarn": true
+	}
 }
