@@ -66,6 +66,10 @@
 		{
 			"groupName": "bull-board",
 			"packagePatterns": ["^@bull-board/"]
+		},
+		{
+			"groupName": "convex",
+			"packagePatterns": ["^convex$", "^convex-", "^@convex-dev/"]
 		}
 	],
 	"timezone": "America/Los_Angeles"
