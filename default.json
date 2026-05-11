@@ -74,6 +74,10 @@
 		{
 			"groupName": "error-prone",
 			"matchSourceUrls": ["https://github.com/google/error-prone", "https://github.com/PicnicSupermarket/error-prone-support"]
+		},
+		{
+			"matchDatasources": ["npm"],
+			"minimumReleaseAge": "24 hours"
 		}
 	],
 	"timezone": "America/Los_Angeles"
