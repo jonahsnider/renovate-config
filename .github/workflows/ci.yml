@@ -22,6 +22,8 @@ jobs:
         run: yarn install --immutable
       - name: Check style
         run: yarn run style
+      - name: Validate Renovate config
+        run: yarn run validate
   publish:
     name: Publish
 
