@@ -22,7 +22,7 @@
 	"prettier": "@jonahsnider/prettier-config",
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.1.2",
-		"prettier": "3.8.3",
+		"prettier": "3.8.4",
 		"renovate": "43.216.1",
 		"semantic-release": "25.0.3"
 	},
