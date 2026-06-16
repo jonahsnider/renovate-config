@@ -34,12 +34,7 @@
 		},
 		{
 			"groupName": "xo",
-			"matchPackagePatterns": [
-				"^xo$",
-				"^eslint-config-xo(-(space|react|typescript|flow))?$",
-				"^prettier-config-xo$",
-				"^@jonahsnider/xo-config$"
-			]
+			"matchPackagePatterns": ["^xo$", "^eslint-config-xo(-(space|react|typescript|flow))?$", "^prettier-config-xo$", "^@jonahsnider/xo-config$"]
 		},
 		{
 			"groupName": "ts-jest",
