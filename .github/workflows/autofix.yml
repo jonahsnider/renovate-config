@@ -1,0 +1,29 @@
+name: autofix.ci # needed to securely identify the workflow
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    name: Autofix
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v6
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+          cache: 'yarn'
+      - name: Install dependencies with Yarn
+        run: yarn install --immutable
+      - name: Apply formatting fixes
+        run: yarn run style --write
+      - name: Run autofix.ci
+        uses: autofix-ci/action@v1
+        with:
+          commit-message: 'refactor: apply automatic fixes'
