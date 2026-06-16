@@ -26,5 +26,5 @@
 		"renovate": "43.224.0",
 		"semantic-release": "25.0.5"
 	},
-	"packageManager": "yarn@4.16.0"
+	"packageManager": "yarn@4.17.0"
 }
