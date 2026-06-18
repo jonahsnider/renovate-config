@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Enable Corepack
         run: corepack enable
       - name: Setup Node.js
@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Enable Corepack
         run: corepack enable
       - name: Setup Node.js
