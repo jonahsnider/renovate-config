@@ -841,7 +841,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.8.4"
-    renovate: "npm:43.224.0"
+    renovate: "npm:43.227.1"
     semantic-release: "npm:25.0.5"
   languageName: unknown
   linkType: soft
@@ -7842,12 +7842,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:8.6.1":
-  version: 8.6.1
-  resolution: "protobufjs@npm:8.6.1"
+"protobufjs@npm:8.6.2":
+  version: 8.6.2
+  resolution: "protobufjs@npm:8.6.2"
   dependencies:
     long: "npm:^5.3.2"
-  checksum: 10c0/1ccfcaa4c4b6fcdb6502979635efc142d4392c335c4f68a73f02bb87e56c0160799fb26d4128e09844a703a558061a7194d56a1db17f025632f9e63250d2b26a
+  checksum: 10c0/9d2ac2ab4c82b9e762f48c282c377e815a8dcbe7fec1b33cb8b7da2a4f06e1882e5e12a1f123b906950e300d1f309bf21c906e39fa8671d0a8bb6c49880cdf32
   languageName: node
   linkType: hard
 
@@ -8099,9 +8099,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.224.0":
-  version: 43.224.0
-  resolution: "renovate@npm:43.224.0"
+"renovate@npm:43.227.1":
+  version: 43.227.1
+  resolution: "renovate@npm:43.227.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1053.0"
     "@aws-sdk/client-ec2": "npm:3.1053.0"
@@ -8198,7 +8198,7 @@ __metadata:
     p-throttle: "npm:8.1.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.8.1"
-    protobufjs: "npm:8.6.1"
+    protobufjs: "npm:8.6.2"
     punycode: "npm:2.3.1"
     re2: "npm:1.24.1"
     remark: "npm:15.0.1"
@@ -8206,7 +8206,7 @@ __metadata:
     remark-github: "npm:12.0.0"
     safe-stable-stringify: "npm:2.5.0"
     sax: "npm:1.6.0"
-    semver: "npm:7.8.2"
+    semver: "npm:7.8.3"
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
@@ -8230,7 +8230,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/f3b1000e3a66e0e56c119a02e84dd0fd25b2138240aa2d3c4c63c04917f79b75f8ef7d6aba3e8a4ffac9451595c053ea4b08b8ad8505105ed44b1e348b07c786
+  checksum: 10c0/842a678381c115b4bc9675407bfce643020b6b37ad0a2728661b832af70f5c0ced2218acdf666aefe2a35e1362e8f5b413430106511f6a0b3cd6d9b424ae9667
   languageName: node
   linkType: hard
 
@@ -8448,12 +8448,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.8.2":
-  version: 7.8.2
-  resolution: "semver@npm:7.8.2"
+"semver@npm:7.8.3":
+  version: 7.8.3
+  resolution: "semver@npm:7.8.3"
   bin:
     semver: bin/semver.js
-  checksum: 10c0/8e8c193fa75b938e5b3ccf6707c6447e4b34f73e493e72b03f3185393489f45e049144052f624217c346d6c6e0a301dda8eeab2f14413e337218ecb1cbd2de16
+  checksum: 10c0/06d96d5b5c03acd8b0dceeae458e5d4b4ea2b6c16a2b0dfa88a0f19b91d19be1a4a192c7abfa825218c4c36c087d831b928c27d5b79a622e370bd12e95578a99
   languageName: node
   linkType: hard
 
