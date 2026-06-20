@@ -69,6 +69,12 @@
 			"matchSourceUrls": ["https://github.com/google/error-prone", "https://github.com/PicnicSupermarket/error-prone-support"]
 		},
 		{
+			"matchManagers": ["github-actions"],
+			"matchPackageNames": ["actions/checkout"],
+			"matchUpdateTypes": ["major"],
+			"automerge": true
+		},
+		{
 			"matchDatasources": ["npm"],
 			"minimumReleaseAge": "24 hours"
 		}
