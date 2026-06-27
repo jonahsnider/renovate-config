@@ -841,7 +841,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.8.5"
-    renovate: "npm:43.243.2"
+    renovate: "npm:43.244.3"
     semantic-release: "npm:25.0.5"
   languageName: unknown
   linkType: soft
@@ -8174,9 +8174,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.243.2":
-  version: 43.243.2
-  resolution: "renovate@npm:43.243.2"
+"renovate@npm:43.244.3":
+  version: 43.244.3
+  resolution: "renovate@npm:43.244.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1053.0"
     "@aws-sdk/client-ec2": "npm:3.1053.0"
@@ -8281,7 +8281,7 @@ __metadata:
     remark-github: "npm:12.0.0"
     safe-stable-stringify: "npm:2.5.0"
     sax: "npm:1.6.0"
-    semver: "npm:7.8.4"
+    semver: "npm:7.8.5"
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
@@ -8305,7 +8305,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/8cbded571197d9cebd17f86923317cc2e6603dc2403c7de2d7e511d9bc2cbec51182d8e7af3764e2f0020c6e94e1edeb058c89fb691ed5824406c2680cfd9a2d
+  checksum: 10c0/b3feba5d52a3a67831d6df78784f49a236d49c276e100dd06162bd8836455b1821d8a70cb01ffd0e0642084c6792530533f94cb48db5c11c3d16f5cd0f1167ea
   languageName: node
   linkType: hard
 
@@ -8523,12 +8523,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.8.4":
-  version: 7.8.4
-  resolution: "semver@npm:7.8.4"
+"semver@npm:7.8.5":
+  version: 7.8.5
+  resolution: "semver@npm:7.8.5"
   bin:
     semver: bin/semver.js
-  checksum: 10c0/81b7c296fd7927b80f67fa516b75fa1017caac8167795320de28e76ccbc6f7f01763c30ecd10d6a0d8fd089708ab0548a5aebb94b0870e99c2a2b4600a46389b
+  checksum: 10c0/b1f3127a5be8125a94f37188b361c212466c292c6910adce3ec106cff5dc211ccaedc4739c11bb70fda59d6fc1f040a9bca289f4e093451521a2372e5231fe0c
   languageName: node
   linkType: hard
 
