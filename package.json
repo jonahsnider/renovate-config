@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.1.2",
 		"prettier": "3.9.3",
-		"renovate": "43.246.1",
+		"renovate": "43.248.0",
 		"semantic-release": "25.0.5"
 	},
 	"packageManager": "yarn@4.17.0"
