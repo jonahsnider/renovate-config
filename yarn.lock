@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.4"
-    renovate: "npm:43.251.0"
+    renovate: "npm:43.251.3"
     semantic-release: "npm:25.0.5"
   languageName: unknown
   linkType: soft
@@ -2455,10 +2455,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ae-cvss-calculator@npm:1.0.12":
-  version: 1.0.12
-  resolution: "ae-cvss-calculator@npm:1.0.12"
-  checksum: 10c0/2ee4b60a9482acfb678371e901975efabe7abe8b69b48b754b422332a271dbd2d212f3b6e7771e8a0e0fd52514e11d0b81277a7bfc9eb9e0a7737d667a39dd1d
+"ae-cvss-calculator@npm:1.0.13":
+  version: 1.0.13
+  resolution: "ae-cvss-calculator@npm:1.0.13"
+  checksum: 10c0/454f036a8ee247ee247a320d12c1d62e55c1c1189ed8de904b68a313c3b4dcce680914d7ce893f61cd0f9431846a8bab901cbd5ea96a81b283e36c19bb50250f
   languageName: node
   linkType: hard
 
@@ -8053,9 +8053,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.251.0":
-  version: 43.251.0
-  resolution: "renovate@npm:43.251.0"
+"renovate@npm:43.251.3":
+  version: 43.251.3
+  resolution: "renovate@npm:43.251.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8095,7 +8095,7 @@ __metadata:
     "@yarnpkg/core": "npm:4.9.0"
     "@yarnpkg/parsers": "npm:3.0.3"
     adm-zip: "npm:0.5.17"
-    ae-cvss-calculator: "npm:1.0.12"
+    ae-cvss-calculator: "npm:1.0.13"
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
     aws4: "npm:1.13.2"
@@ -8184,7 +8184,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/6af243a347eba4f25a44baab8aedfc9aa0e31cb00cfb57082d16d04e1c0069e1b6c3c2e11d475b582393f4fa609dd056f470020e94c5a3bdfbdf686333249ab6
+  checksum: 10c0/c8354f5c702823644decd61e4d3a5cfbd8396a18de2ebe307e505db51d0a45e46c703bb0dce933c26f142f479d391425b5556bf1353ff89428dabf82be3122cf
   languageName: node
   linkType: hard
 
