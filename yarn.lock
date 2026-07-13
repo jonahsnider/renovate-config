@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.5"
-    renovate: "npm:43.257.5"
+    renovate: "npm:43.259.2"
     semantic-release: "npm:25.0.6"
   languageName: unknown
   linkType: soft
@@ -7398,13 +7398,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:9.3.0":
-  version: 9.3.0
-  resolution: "p-queue@npm:9.3.0"
+"p-queue@npm:9.3.1":
+  version: 9.3.1
+  resolution: "p-queue@npm:9.3.1"
   dependencies:
     eventemitter3: "npm:^5.0.4"
     p-timeout: "npm:^7.0.0"
-  checksum: 10c0/4bc5461a022903127043eab72f3aa544ba740f74ad24cbc7207e1146b1c3d6b816f59e9eccd543dacd57e9534576b36a1904294c7502633291887ccd285ea945
+  checksum: 10c0/b35cff9b4b61596e02502682517973eda2786114f13630a24e16a38e63e51bf8d23db31a98b72825eb50470d3d706c5dee30b7d433547d1d0dfb706f72e316b8
   languageName: node
   linkType: hard
 
@@ -7829,12 +7829,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:8.6.5":
-  version: 8.6.5
-  resolution: "protobufjs@npm:8.6.5"
+"protobufjs@npm:8.6.6":
+  version: 8.6.6
+  resolution: "protobufjs@npm:8.6.6"
   dependencies:
     long: "npm:^5.3.2"
-  checksum: 10c0/ccf3d07c567c1b1be9114165093bba658dac252bd9c99c5705d4a0e2e207c772f9996bb3826c27a6cc1c67943767ecdfbf5525bb4f83fecfd186d6dbd300147e
+  checksum: 10c0/9bc4515089383ba0ce89bfa10cbe63fac02a1466a0a602fb853e5d8b1a17729547cd77e42b21e75b7a3b3ec052a8929c9c98bc0d4f1bd06440869f46ca3c3b2b
   languageName: node
   linkType: hard
 
@@ -8086,9 +8086,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.257.5":
-  version: 43.257.5
-  resolution: "renovate@npm:43.257.5"
+"renovate@npm:43.259.2":
+  version: 43.259.2
+  resolution: "renovate@npm:43.259.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8181,11 +8181,11 @@ __metadata:
     openpgp: "npm:6.3.1"
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.5"
-    p-queue: "npm:9.3.0"
+    p-queue: "npm:9.3.1"
     p-throttle: "npm:8.1.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.8.1"
-    protobufjs: "npm:8.6.5"
+    protobufjs: "npm:8.6.6"
     punycode: "npm:2.3.1"
     re2: "npm:1.25.0"
     remark: "npm:15.0.1"
@@ -8217,7 +8217,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/490ba65923e853d648aab2dc506ed500e2bd825f9016eb925b1e23f7f059fee660cc889bbbc3fef1d66efdcdf4d5903fcd3bbf49b6f8219372a23f1b5b75c2aa
+  checksum: 10c0/fa6db924a151c551d9b76cabb6869afd34ecb742dee6acedb29ab28192a5d8d277e8872daea5d93820771df5fd377377986fef293015e2d15754e40bbc75e0fb
   languageName: node
   linkType: hard
 
