@@ -22,6 +22,8 @@ jobs:
         run: yarn install --immutable
       - name: Check style
         run: yarn run style
+      - name: Test Renovate CE enqueue helper
+        run: yarn run test:enqueue
       - name: Validate Renovate config
         run: yarn run validate
   publish:

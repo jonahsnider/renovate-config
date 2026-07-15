@@ -17,6 +17,7 @@
 	},
 	"scripts": {
 		"style": "prettier --check .",
+		"test:enqueue": "node --test scripts/enqueue-renovate.test.mjs",
 		"validate": "renovate-config-validator"
 	},
 	"prettier": "@jonahsnider/prettier-config",
