@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.5"
-    renovate: "npm:43.263.4"
+    renovate: "npm:43.263.5"
     semantic-release: "npm:25.0.7"
   languageName: unknown
   linkType: soft
@@ -7911,14 +7911,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.25.1":
-  version: 1.25.1
-  resolution: "re2@npm:1.25.1"
+"re2@npm:1.25.2":
+  version: 1.25.2
+  resolution: "re2@npm:1.25.2"
   dependencies:
     install-artifact-from-github: "npm:^1.6.0"
     nan: "npm:^2.27.0"
     node-gyp: "npm:^13.0.0"
-  checksum: 10c0/30a225cade710e08ded2adf05f2569c3060a2dc11b9ebd7ff6b2036488d65f6e9746f483bcace576e1954b849e138085204cfe24a09b100346d10c9e5b16320b
+  checksum: 10c0/b4a0d472cbe93fb79b88a9d53f5c061e9c7b2d314f68c0db4353c5bb745fa34897faf418bfd794b5787cf1bf22d745195f0dce8c678f6e2ec9ba535fe5f2fde6
   languageName: node
   linkType: hard
 
@@ -8082,9 +8082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.263.4":
-  version: 43.263.4
-  resolution: "renovate@npm:43.263.4"
+"renovate@npm:43.263.5":
+  version: 43.263.5
+  resolution: "renovate@npm:43.263.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8183,7 +8183,7 @@ __metadata:
     prettier: "npm:3.8.1"
     protobufjs: "npm:8.7.0"
     punycode: "npm:2.3.1"
-    re2: "npm:1.25.1"
+    re2: "npm:1.25.2"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
     remark-github: "npm:12.0.0"
@@ -8213,7 +8213,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/776879b01d58514ce7e6a16b4b1f0f8260adab17ee411ad7de23943d68fd17ac6a9bd0ea00e217ed27e15f82e35838cab61d93e04ba46ae75329285bbe2ec26b
+  checksum: 10c0/382c7bf4a1f022d395f21ed7e9da2769fa30fc4363e8154e4426055f3e5366d6061f8a161230bea5585b429a37b8a0e28522e0f1473ecb98520c5004dd570447
   languageName: node
   linkType: hard
 
