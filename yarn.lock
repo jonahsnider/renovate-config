@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.5"
-    renovate: "npm:43.260.2"
+    renovate: "npm:43.262.2"
     semantic-release: "npm:25.0.7"
   languageName: unknown
   linkType: soft
@@ -1504,7 +1504,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/semantic-conventions@npm:1.41.1, @opentelemetry/semantic-conventions@npm:^1.27.0, @opentelemetry/semantic-conventions@npm:^1.29.0, @opentelemetry/semantic-conventions@npm:^1.37.0":
+"@opentelemetry/semantic-conventions@npm:1.42.0":
+  version: 1.42.0
+  resolution: "@opentelemetry/semantic-conventions@npm:1.42.0"
+  checksum: 10c0/ea43b5ebb61fbda1856ce0be55feb2cf83ea0e606b4739d2d8bd8b7e82fee46dff8415c9b17f13478bca41ff714de56475915d9153ffa3255dc6e8b54815d81b
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/semantic-conventions@npm:^1.27.0, @opentelemetry/semantic-conventions@npm:^1.29.0, @opentelemetry/semantic-conventions@npm:^1.37.0":
   version: 1.41.1
   resolution: "@opentelemetry/semantic-conventions@npm:1.41.1"
   checksum: 10c0/c54b1edf845766e93026d30fd95e15da9dba8d7a5b58f8c320c5d36ab542c77b37868f3e8e3d78ec162da8ee2afd24781f0a65934c9bdbc1aea86b47b12f074c
@@ -7818,12 +7825,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:8.6.6":
-  version: 8.6.6
-  resolution: "protobufjs@npm:8.6.6"
+"protobufjs@npm:8.7.0":
+  version: 8.7.0
+  resolution: "protobufjs@npm:8.7.0"
   dependencies:
     long: "npm:^5.3.2"
-  checksum: 10c0/9bc4515089383ba0ce89bfa10cbe63fac02a1466a0a602fb853e5d8b1a17729547cd77e42b21e75b7a3b3ec052a8929c9c98bc0d4f1bd06440869f46ca3c3b2b
+  checksum: 10c0/d5fd41a726bfac92431b3ef5232a26ea1df0961216be318d17d58a6dace9cf2c4cbc63c63071087691c7394e36053cd7ea66b826d74dfc6158b7b5bd39ec08da
   languageName: node
   linkType: hard
 
@@ -8075,9 +8082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.260.2":
-  version: 43.260.2
-  resolution: "renovate@npm:43.260.2"
+"renovate@npm:43.262.2":
+  version: 43.262.2
+  resolution: "renovate@npm:43.262.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8103,7 +8110,7 @@ __metadata:
     "@opentelemetry/resources": "npm:2.9.0"
     "@opentelemetry/sdk-trace-base": "npm:2.9.0"
     "@opentelemetry/sdk-trace-node": "npm:2.9.0"
-    "@opentelemetry/semantic-conventions": "npm:1.41.1"
+    "@opentelemetry/semantic-conventions": "npm:1.42.0"
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:5.12.1"
@@ -8174,7 +8181,7 @@ __metadata:
     p-throttle: "npm:8.1.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.8.1"
-    protobufjs: "npm:8.6.6"
+    protobufjs: "npm:8.7.0"
     punycode: "npm:2.3.1"
     re2: "npm:1.25.0"
     remark: "npm:15.0.1"
@@ -8206,7 +8213,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/02c4f5a24f3868480414951b50d225cdc81f262e17712c215551399a3321057a5089202379930f272329c53a930a90bda5f9831def29e95fe80cbcc82ea188a6
+  checksum: 10c0/5f940c3c2337708c85f3feeb51ff9d58cab25d1a917353378dad3d1f9721ed05c9e03fb29fb831ec3e0a33dc85d08bb2a437b51988be32414e464e98775694c9
   languageName: node
   linkType: hard
 
