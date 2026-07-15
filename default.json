@@ -77,6 +77,12 @@
 		{
 			"matchDatasources": ["npm"],
 			"minimumReleaseAge": "24 hours"
+		},
+		{
+			"matchManagers": ["npm"],
+			"matchPackageNames": ["vercel"],
+			"matchUpdateTypes": ["major"],
+			"automerge": true
 		}
 	],
 	"timezone": "America/Los_Angeles"
