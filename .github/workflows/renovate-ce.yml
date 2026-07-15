@@ -1,0 +1,40 @@
+name: Enqueue Renovate CE
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: Repositories to enqueue
+        type: choice
+        options: [canary, all]
+        default: canary
+
+permissions:
+  contents: read
+
+concurrency:
+  group: renovate-ce-enqueue
+  cancel-in-progress: false
+
+jobs:
+  enqueue:
+    name: Enqueue ${{ github.event_name == 'workflow_dispatch' && inputs.scope || 'all' }}
+    if: vars.RENOVATE_CE_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v7
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+      - name: Enqueue repositories
+        run: node scripts/enqueue-renovate.mjs "$RENOVATE_CE_SCOPE"
+        env:
+          RENOVATE_CE_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.scope || 'all' }}
+          RENOVATE_CE_URL: ${{ vars.RENOVATE_CE_URL }}
+          MEND_RNV_API_SERVER_SECRET: ${{ secrets.MEND_RNV_API_SERVER_SECRET }}
