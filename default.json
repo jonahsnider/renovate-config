@@ -69,6 +69,10 @@
 			"matchSourceUrls": ["https://github.com/google/error-prone", "https://github.com/PicnicSupermarket/error-prone-support"]
 		},
 		{
+			"groupName": "fallow",
+			"matchSourceUrls": ["https://github.com/fallow-rs/fallow"]
+		},
+		{
 			"matchManagers": ["github-actions"],
 			"matchPackageNames": ["actions/checkout", "actions/cache", "actions/setup-node"],
 			"matchUpdateTypes": ["major"],
