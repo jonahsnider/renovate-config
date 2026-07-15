@@ -21,7 +21,6 @@ concurrency:
 jobs:
   enqueue:
     name: Enqueue ${{ github.event_name == 'workflow_dispatch' && inputs.scope || 'all' }}
-    if: vars.RENOVATE_CE_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
