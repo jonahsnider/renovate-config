@@ -70,7 +70,7 @@
 		},
 		{
 			"matchManagers": ["github-actions"],
-			"matchPackageNames": ["actions/checkout", "actions/cache"],
+			"matchPackageNames": ["actions/checkout", "actions/cache", "actions/setup-node"],
 			"matchUpdateTypes": ["major"],
 			"automerge": true
 		},
