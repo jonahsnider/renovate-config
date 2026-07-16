@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.5"
-    renovate: "npm:43.263.5"
+    renovate: "npm:43.263.6"
     semantic-release: "npm:25.0.7"
   languageName: unknown
   linkType: soft
@@ -5758,10 +5758,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:11.5.1":
-  version: 11.5.1
-  resolution: "lru-cache@npm:11.5.1"
-  checksum: 10c0/7b341cea79a8efe9c6a6f20c8757a77eca5b25d7ff983ccf4e11e547b81f6787824baa1c84705251dff84ab4ffac85717ac354b9d02e465f86a9f8b166409979
+"lru-cache@npm:11.5.2":
+  version: 11.5.2
+  resolution: "lru-cache@npm:11.5.2"
+  checksum: 10c0/ece1ad731f5b655e85d67047d04bfc13823dc77aa61c5454924a9869ba600a0104e39cc33d726021feef812bc347ca34a5608a5eb1972a5dd0870b7ecd42c3f2
   languageName: node
   linkType: hard
 
@@ -8082,9 +8082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.263.5":
-  version: 43.263.5
-  resolution: "renovate@npm:43.263.5"
+"renovate@npm:43.263.6":
+  version: 43.263.6
+  resolution: "renovate@npm:43.263.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8165,7 +8165,7 @@ __metadata:
     jsonata: "npm:2.2.1"
     jsonc-weaver: "npm:0.2.4"
     klona: "npm:2.0.6"
-    lru-cache: "npm:11.5.1"
+    lru-cache: "npm:11.5.2"
     luxon: "npm:3.7.2"
     markdown-it: "npm:14.3.0"
     markdown-table: "npm:3.0.4"
@@ -8213,7 +8213,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/382c7bf4a1f022d395f21ed7e9da2769fa30fc4363e8154e4426055f3e5366d6061f8a161230bea5585b429a37b8a0e28522e0f1473ecb98520c5004dd570447
+  checksum: 10c0/451ab57b42d7b0114246269ad6c4d7b9bfbba7621ff5b1e77c34ca9bed93cd0ebe70938b7b445cbfebc2f4496c7e9e10f91505354c0257025e47387c35e8cc4a
   languageName: node
   linkType: hard
 
