@@ -13,14 +13,6 @@
 	"gitIgnoredAuthors": ["114827586+autofix-ci[bot]@users.noreply.github.com", "29139614+renovate[bot]@users.noreply.github.com"],
 	"packageRules": [
 		{
-			"groupName": "prisma",
-			"matchPackagePatterns": ["^@prisma/", "^prisma$"]
-		},
-		{
-			"groupName": "size-limit",
-			"matchPackagePatterns": ["^@size-limit/", "^size-limit$"]
-		},
-		{
 			"groupName": "typescript",
 			"matchPackagePatterns": ["^typescript$", "^@tsconfig/"]
 		},
@@ -31,24 +23,8 @@
 			"automerge": true
 		},
 		{
-			"groupName": "serwist",
-			"matchPackagePatterns": ["^@serwist/"]
-		},
-		{
-			"groupName": "simplewebauthn",
-			"matchPackagePatterns": ["^@simplewebauthn/"]
-		},
-		{
 			"groupName": "xo",
 			"matchPackagePatterns": ["^xo$", "^eslint-config-xo(-(space|react|typescript|flow))?$", "^prettier-config-xo$", "^@jonahsnider/xo-config$"]
-		},
-		{
-			"groupName": "fontawesome",
-			"packagePatterns": ["^@fortawesome/"]
-		},
-		{
-			"groupName": "nestjs",
-			"packagePatterns": ["^@nestjs/"]
 		},
 		{
 			"groupName": "rollup",
@@ -57,10 +33,6 @@
 		{
 			"groupName": "drizzle",
 			"packagePatterns": ["^drizzle-"]
-		},
-		{
-			"groupName": "bull-board",
-			"packagePatterns": ["^@bull-board/"]
 		},
 		{
 			"groupName": "convex",
