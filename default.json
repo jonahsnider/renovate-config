@@ -14,7 +14,7 @@
 	"packageRules": [
 		{
 			"groupName": "typescript",
-			"matchPackagePatterns": ["^typescript$", "^@tsconfig/"]
+			"matchPackageNames": ["typescript", "@tsconfig/**"]
 		},
 		{
 			"matchPackageNames": ["typescript"],
@@ -24,19 +24,19 @@
 		},
 		{
 			"groupName": "xo",
-			"matchPackagePatterns": ["^xo$", "^eslint-config-xo(-(space|react|typescript|flow))?$", "^prettier-config-xo$", "^@jonahsnider/xo-config$"]
+			"matchPackageNames": ["xo", "eslint-config-xo", "prettier-config-xo", "@jonahsnider/xo-config", "eslint-config-xo-{space,react,typescript,flow}"]
 		},
 		{
 			"groupName": "rollup",
-			"packagePatterns": ["^rollup$", "^@rollup/", "^rollup-plugin-"]
+			"matchPackageNames": ["rollup", "@rollup/**", "rollup-plugin-*"]
 		},
 		{
 			"groupName": "drizzle",
-			"packagePatterns": ["^drizzle-"]
+			"matchPackageNames": ["drizzle-*"]
 		},
 		{
 			"groupName": "convex",
-			"packagePatterns": ["^convex$", "^convex-", "^@convex-dev/"]
+			"matchPackageNames": ["convex", "convex-*", "@convex-dev/**"]
 		},
 		{
 			"groupName": "error-prone",
