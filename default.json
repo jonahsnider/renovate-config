@@ -43,10 +43,6 @@
 			"matchPackagePatterns": ["^xo$", "^eslint-config-xo(-(space|react|typescript|flow))?$", "^prettier-config-xo$", "^@jonahsnider/xo-config$"]
 		},
 		{
-			"groupName": "ts-jest",
-			"matchPackagePatterns": ["(ts\\-)?jest"]
-		},
-		{
 			"groupName": "fontawesome",
 			"packagePatterns": ["^@fortawesome/"]
 		},
