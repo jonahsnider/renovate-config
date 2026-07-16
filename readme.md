@@ -24,3 +24,5 @@ Railway must retain `RENOVATE_IGNORE_PR_AUTHOR=true` until every pull request au
 
 - App sync: `MEND_RNV_CRON_APP_SYNC=7 */4 * * *`
 - Repository jobs: `MEND_RNV_CRON_JOB_SCHEDULER_ALL=17 */4 * * *`
+
+Production also uses `MEND_RNV_ENQUEUE_JOBS_ON_STARTUP=discovered`, so a restart only enqueues repositories newly found by the startup sync. `RENOVATE_REPOSITORY_CACHE=enabled` reuses dependency extraction results between jobs and enables repository pull request reporting. Railway's `renovate-cache` volume is mounted at `/tmp/renovate/cache` to persist Renovate's repository and package caches across deployments. Repository working copies remain ephemeral; `RENOVATE_PERSIST_REPO_DATA` is not set.
