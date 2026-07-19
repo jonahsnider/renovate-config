@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.1.2",
 		"prettier": "3.9.5",
-		"renovate": "43.269.2",
+		"renovate": "43.270.0",
 		"semantic-release": "25.0.8"
 	},
 	"packageManager": "yarn@4.17.1"
