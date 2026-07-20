@@ -48,7 +48,7 @@
 		},
 		{
 			"matchManagers": ["github-actions"],
-			"matchPackageNames": ["actions/checkout", "actions/cache", "actions/setup-node"],
+			"matchPackageNames": ["actions/checkout", "actions/cache", "actions/setup-*"],
 			"matchUpdateTypes": ["major"],
 			"automerge": true
 		},
