@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.6"
-    renovate: "npm:43.272.6"
+    renovate: "npm:43.275.0"
     semantic-release: "npm:25.0.8"
   languageName: unknown
   linkType: soft
@@ -8076,9 +8076,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.272.6":
-  version: 43.272.6
-  resolution: "renovate@npm:43.272.6"
+"renovate@npm:43.275.0":
+  version: 43.275.0
+  resolution: "renovate@npm:43.275.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8207,7 +8207,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/1238de7815efd489bed0c46a188cdcfcd7105c1e3748cae93a0d28e5815f0400af4e5c4023e72836e6c203dc8211a4d774f6ca9b07304f53831a7d1cb533de75
+  checksum: 10c0/5a758ca48668c80c652b2007d317cc111ad1d1867308f1f3564e1b016d0e09ef0e5e57536f6918fb5c773b82b3071c11cc5820361324ab1a1a7a540fb88c425b
   languageName: node
   linkType: hard
 
