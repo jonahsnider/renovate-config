@@ -761,7 +761,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     prettier: "npm:3.9.6"
-    renovate: "npm:43.285.3"
+    renovate: "npm:43.285.7"
     semantic-release: "npm:25.0.8"
   languageName: unknown
   linkType: soft
@@ -6729,12 +6729,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0, nan@npm:^2.27.0":
+"nan@npm:^2.14.0":
   version: 2.27.0
   resolution: "nan@npm:2.27.0"
   dependencies:
     node-gyp: "npm:latest"
   checksum: 10c0/38eb00b06e40f0c65b6a98d75795f17d651a8b7b52f03873dff6902d0053f12e7638d7f64fc52bda6c8f8ec454d69636e3988c8a9eb2bc749c2d5c255ba55f4c
+  languageName: node
+  linkType: hard
+
+"nan@npm:^2.28.0":
+  version: 2.28.0
+  resolution: "nan@npm:2.28.0"
+  dependencies:
+    node-gyp: "npm:latest"
+  checksum: 10c0/84e45fbb6a249df751bba657728792a8d93e3b10bad9774200c858d1ff38723c988c3e4cef50b3742fa8a05da2e49fa16806f6d768405382d8b1094d10d42fa5
   languageName: node
   linkType: hard
 
@@ -6845,9 +6854,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^13.0.0":
-  version: 13.0.0
-  resolution: "node-gyp@npm:13.0.0"
+"node-gyp@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "node-gyp@npm:13.0.1"
   dependencies:
     env-paths: "npm:^2.2.0"
     exponential-backoff: "npm:^3.1.1"
@@ -6857,11 +6866,11 @@ __metadata:
     semver: "npm:^7.3.5"
     tar: "npm:^7.5.4"
     tinyglobby: "npm:^0.2.12"
-    undici: "npm:^6.25.0"
+    undici: "npm:^8.4.1"
     which: "npm:^7.0.0"
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 10c0/e7525c427db2d16aa368b8947187de83083d2a8dda23e3e096a71c22ae637ac5bb8ed7cf6c871f1b9118cd2729dbfee4ff3a4245e2b79226900227b15831b492
+  checksum: 10c0/424077bc9e9bbe953a8e86db473ba818cbc6a121714008c977fd589e21e5f0c811fbf22faac730dc7182450b5e52df301811d01ae3373898658d999b7710f4e6
   languageName: node
   linkType: hard
 
@@ -7905,14 +7914,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.26.0":
-  version: 1.26.0
-  resolution: "re2@npm:1.26.0"
+"re2@npm:1.26.1":
+  version: 1.26.1
+  resolution: "re2@npm:1.26.1"
   dependencies:
     install-artifact-from-github: "npm:^1.7.0"
-    nan: "npm:^2.27.0"
-    node-gyp: "npm:^13.0.0"
-  checksum: 10c0/1355e1ffa00d12f862d7c6b98be36a2baceea6dbe1e9fbe9eb52e38d2966637f3bc9d13eb4f15d868514b3039da3e6180984a753ff8fb9ee33afc596138da708
+    nan: "npm:^2.28.0"
+    node-gyp: "npm:^13.0.1"
+  checksum: 10c0/6204450f56e7b65772c02491c5c04b9264d3a95a5e635519b0f4f98623aef958d57d23b8c738c433a668d6a75166f03ae1ce3ee8ae7fe0bb2913fb2dcde4100f
   languageName: node
   linkType: hard
 
@@ -8076,9 +8085,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.285.3":
-  version: 43.285.3
-  resolution: "renovate@npm:43.285.3"
+"renovate@npm:43.285.7":
+  version: 43.285.7
+  resolution: "renovate@npm:43.285.7"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -8178,7 +8187,7 @@ __metadata:
     prettier: "npm:3.8.1"
     protobufjs: "npm:8.7.1"
     punycode: "npm:2.3.1"
-    re2: "npm:1.26.0"
+    re2: "npm:1.26.1"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
     remark-github: "npm:12.0.0"
@@ -8208,7 +8217,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/63606dfdb950896bfe2d35d8230c027c5dfbe7a7be3d5c039daa841c8492918716312025f5c16756004a820d01790ab14e3b030022c0b9db1c4766e8cbc35e8a
+  checksum: 10c0/063fb072a894d3d01931c7212aec90bb8d18650739b84260b4c87b77306c69f976620c020f539726f980a204ee193221bd70f650110147402e2d7050854b4800
   languageName: node
   linkType: hard
 
@@ -9312,6 +9321,13 @@ __metadata:
   version: 7.16.0
   resolution: "undici@npm:7.16.0"
   checksum: 10c0/efd867792e9f233facf9efa0a087e2d9c3e4415c0b234061b9b40307ca4fa01d945fee4d43c7b564e1b80e0d519bcc682f9f6e0de13c717146c00a80e2f1fb0f
+  languageName: node
+  linkType: hard
+
+"undici@npm:^8.4.1":
+  version: 8.9.0
+  resolution: "undici@npm:8.9.0"
+  checksum: 10c0/e3d9fa35a9aa8360d9f56e66bd372f451ee053e25066a97fd9fab3816267035660f67870c6d709a58a5411551657af78c4475be5b31c113b04f70251309900d0
   languageName: node
   linkType: hard
 
