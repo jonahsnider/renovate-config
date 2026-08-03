@@ -43,6 +43,10 @@
 			"matchSourceUrls": ["https://github.com/google/error-prone", "https://github.com/PicnicSupermarket/error-prone-support"]
 		},
 		{
+			"groupName": "slack",
+			"matchSourceUrls": ["https://github.com/slackapi/node-slack-sdk"]
+		},
+		{
 			"groupName": "fallow",
 			"matchSourceUrls": ["https://github.com/fallow-rs/fallow"]
 		},
