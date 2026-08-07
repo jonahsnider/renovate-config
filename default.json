@@ -50,6 +50,10 @@
 			"matchSourceUrls": ["https://github.com/fallow-rs/fallow"]
 		},
 		{
+			"groupName": "flue",
+			"matchSourceUrls": ["https://github.com/withastro/flue"]
+		},
+		{
 			"matchManagers": ["github-actions"],
 			"matchPackageNames": ["actions/checkout", "actions/cache", "actions/setup-*"],
 			"matchUpdateTypes": ["major"],
