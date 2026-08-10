@@ -1,4 +1,4 @@
-FROM ghcr.io/mend/renovate-ce:15.1.0@sha256:4f25639e1b5355321e1fefbab55177d1c103697ddb04abbce87e262456f4ce96
+FROM ghcr.io/mend/renovate-ce:15.2.0@sha256:669c9bb298a467acef1f195525f6f6baa731ac90d27443f24bd74a2ff4c47dda
 
 COPY renovate.config.cjs /usr/src/app/config.js
 
