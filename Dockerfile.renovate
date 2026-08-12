@@ -3,4 +3,3 @@ FROM ghcr.io/mend/renovate-ce:15.2.0@sha256:669c9bb298a467acef1f195525f6f6baa731
 COPY renovate.config.cjs /usr/src/app/config.js
 
 ENV RENOVATE_CONFIG_FILE=/usr/src/app/config.js
-ENV CONTAINERBASE_CLEANUP_PATH=/tmp/renovate/cache/containerbase/**:/tmp/renovate/cache/others/**:/tmp/renovate/cache/renovate/**
