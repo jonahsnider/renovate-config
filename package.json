@@ -5,26 +5,28 @@
 	"bugs": {
 		"url": "https://github.com/jonahsnider/renovate-config/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jonahsnider/renovate-config.git"
-	},
 	"license": "Apache-2.0",
 	"author": {
 		"name": "Jonah Snider",
 		"email": "jonah@jonahsnider.com",
 		"url": "https://jonahsnider.com"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jonahsnider/renovate-config.git"
+	},
 	"scripts": {
 		"check:duplicate-groups": "node scripts/check-duplicate-groups.mjs",
-		"style": "prettier --check .",
+		"lint": "oxlint",
+		"lint:fix": "oxlint --fix",
+		"style": "oxfmt --check",
+		"style:fix": "oxfmt --write",
 		"test:enqueue": "node --test scripts/enqueue-renovate.test.mjs",
 		"validate": "renovate-config-validator"
 	},
-	"prettier": "@jonahsnider/prettier-config",
 	"devDependencies": {
-		"@jonahsnider/prettier-config": "1.1.2",
-		"prettier": "3.9.6",
+		"oxfmt": "0.63.0",
+		"oxlint": "1.78.0",
 		"renovate": "44.24.2",
 		"semantic-release": "25.0.9"
 	},

@@ -1,7 +1,6 @@
 .yarn
 .editorconfig
-.prettierignore
-.prettierrc
+.oxfmtrc.json
 .pnp.cjs
 renovate.json
 .vscode

@@ -22,6 +22,8 @@ jobs:
         run: yarn install --immutable
       - name: Check style
         run: yarn run style
+      - name: Lint
+        run: yarn run lint
       - name: Test Renovate CE enqueue helper
         run: yarn run test:enqueue
       - name: Check for duplicate package groups

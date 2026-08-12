@@ -22,7 +22,9 @@ jobs:
       - name: Install dependencies with Yarn
         run: yarn install --immutable
       - name: Apply formatting fixes
-        run: yarn run style --write
+        run: yarn run style:fix
+      - name: Apply lint fixes
+        run: yarn run lint:fix
       - name: Run autofix.ci
         uses: autofix-ci/action@v1
         with:
