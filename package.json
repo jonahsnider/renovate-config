@@ -16,6 +16,7 @@
 		"url": "https://jonahsnider.com"
 	},
 	"scripts": {
+		"check:duplicate-groups": "node scripts/check-duplicate-groups.mjs",
 		"style": "prettier --check .",
 		"test:enqueue": "node --test scripts/enqueue-renovate.test.mjs",
 		"validate": "renovate-config-validator"

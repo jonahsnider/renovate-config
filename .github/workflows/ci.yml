@@ -24,6 +24,8 @@ jobs:
         run: yarn run style
       - name: Test Renovate CE enqueue helper
         run: yarn run test:enqueue
+      - name: Check for duplicate package groups
+        run: yarn run check:duplicate-groups
       - name: Validate Renovate config
         run: yarn run validate
   publish:
