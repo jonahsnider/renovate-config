@@ -46,6 +46,10 @@
 			"matchSourceUrls": ["https://github.com/slackapi/**"]
 		},
 		{
+			"groupName": "chat-sdk",
+			"matchSourceUrls": ["https://github.com/vercel/chat"]
+		},
+		{
 			"groupName": "fallow",
 			"matchSourceUrls": ["https://github.com/fallow-rs/fallow"]
 		},
