@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"oxfmt": "0.63.0",
 		"oxlint": "1.78.0",
-		"renovate": "44.25.0",
+		"renovate": "44.26.0",
 		"semantic-release": "25.0.9"
 	},
 	"packageManager": "yarn@4.18.0"
