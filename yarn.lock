@@ -630,7 +630,7 @@ __metadata:
   dependencies:
     oxfmt: "npm:0.63.0"
     oxlint: "npm:1.78.0"
-    renovate: "npm:44.26.0"
+    renovate: "npm:44.27.0"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -7944,6 +7944,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pend@npm:~1.2.0":
+  version: 1.2.0
+  resolution: "pend@npm:1.2.0"
+  checksum: 10c0/8a87e63f7a4afcfb0f9f77b39bb92374afc723418b9cb716ee4257689224171002e07768eeade4ecd0e86f1fa3d8f022994219fb45634f2dbd78c6803e452458
+  languageName: node
+  linkType: hard
+
 "picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
@@ -8349,9 +8356,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.26.0":
-  version: 44.26.0
-  resolution: "renovate@npm:44.26.0"
+"renovate@npm:44.27.0":
+  version: 44.27.0
+  resolution: "renovate@npm:44.27.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -8472,6 +8479,7 @@ __metadata:
     validate-npm-package-name: "npm:7.0.2"
     xmldoc: "npm:2.0.3"
     yaml: "npm:2.9.0"
+    yauzl: "npm:3.4.0"
     zod: "npm:4.4.3"
   dependenciesMeta:
     openpgp:
@@ -8481,7 +8489,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/fed263a0cbdb4447cf5f43e4e7783689dc51bd5b13d4b997a42364085304a6ddc11293817515a1522795fc13f6db41a3eab50575648cff680c3b566fc34bc8b1
+  checksum: 10c0/616fe6e211908e8f7b16e583c18003a9d15388c8a236026da42f2fca1f3f02e8acab918709bb13c72dc4e2df9bf01f9196dc3f9b7a63ad057b1346a7664e2047
   languageName: node
   linkType: hard
 
@@ -10032,6 +10040,15 @@ __metadata:
     y18n: "npm:^5.0.5"
     yargs-parser: "npm:^22.0.0"
   checksum: 10c0/bf290e4723876ea9c638c786a5c42ac28e03c9ca2325e1424bf43b94e5876456292d3ed905b853ebbba6daf43ed29e772ac2a6b3c5fb1b16533245d6211778f3
+  languageName: node
+  linkType: hard
+
+"yauzl@npm:3.4.0":
+  version: 3.4.0
+  resolution: "yauzl@npm:3.4.0"
+  dependencies:
+    pend: "npm:~1.2.0"
+  checksum: 10c0/17a98c42c0065e8af429eb8a61f7a0e4562181ed54080366b838f34f741b6829f167f804787c86b7646bb042707f35871739f053de0548285e405a2eae4da025
   languageName: node
   linkType: hard
 
