@@ -630,7 +630,7 @@ __metadata:
   dependencies:
     oxfmt: "npm:0.63.0"
     oxlint: "npm:1.78.0"
-    renovate: "npm:44.30.2"
+    renovate: "npm:44.30.3"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -8356,9 +8356,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.30.2":
-  version: 44.30.2
-  resolution: "renovate@npm:44.30.2"
+"renovate@npm:44.30.3":
+  version: 44.30.3
+  resolution: "renovate@npm:44.30.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -8489,7 +8489,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/b41ca1cfd1bc5ac0f2e01d58b02bf739a80eb4b338e5ac5e3bac53795bc4230ba6aae5ce0a02997c4187e0212e442f1cfd48c57b3d43d82e1f2b68d563491fc1
+  checksum: 10c0/3fe887d23ca2c6e181c000a6f67317f35fe9354a05a36617e99dc60eb5e0472279d14ed9698efa2298c00ebfc054966f9959695168d01270ecd71073c9ea12dd
   languageName: node
   linkType: hard
 
