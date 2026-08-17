@@ -70,7 +70,7 @@
 			"minimumReleaseAge": "24 hours"
 		},
 		{
-			"matchManagers": ["npm"],
+			"matchDatasources": ["npm"],
 			"matchPackageNames": ["vercel"],
 			"matchUpdateTypes": ["major"],
 			"automerge": true
