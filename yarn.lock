@@ -630,7 +630,7 @@ __metadata:
   dependencies:
     oxfmt: "npm:0.63.0"
     oxlint: "npm:1.78.0"
-    renovate: "npm:44.32.2"
+    renovate: "npm:44.32.5"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -5532,12 +5532,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-weaver@npm:0.3.0":
-  version: 0.3.0
-  resolution: "jsonc-weaver@npm:0.3.0"
+"jsonc-weaver@npm:0.3.1":
+  version: 0.3.1
+  resolution: "jsonc-weaver@npm:0.3.1"
   dependencies:
     jsonc-morph: "npm:^0.3.5"
-  checksum: 10c0/e6eb396862ec805507674e55b50efe0933ea65547f1d44532b04716a78d73c81557d581d0ebb8c5bd5d56b84f06ac5434719e901e06ceabce0d914176fecf566
+  checksum: 10c0/2168a7515aa3bc92c1f4d32723fff2dbabc76c746b0460b633386cfeb3b5284cb9f424d2a269bb80789940aba93d9cd186a7d70e8be684a57c7dcd16914752f1
   languageName: node
   linkType: hard
 
@@ -8356,9 +8356,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.32.2":
-  version: 44.32.2
-  resolution: "renovate@npm:44.32.2"
+"renovate@npm:44.32.5":
+  version: 44.32.5
+  resolution: "renovate@npm:44.32.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -8438,7 +8438,7 @@ __metadata:
     json-stringify-pretty-compact: "npm:4.0.0"
     json5: "npm:2.2.3"
     jsonata: "npm:2.2.1"
-    jsonc-weaver: "npm:0.3.0"
+    jsonc-weaver: "npm:0.3.1"
     klona: "npm:2.0.6"
     lru-cache: "npm:11.5.2"
     luxon: "npm:3.7.2"
@@ -8489,7 +8489,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/59628c77e2abdd3bff7e2114b7ed252c6e65d1b6c881c5ccad5cf964942a341e7038da5ca0e5c64fe64adaa4b42bb849d69e8e3d2beeb34e2e420d9a1d34a233
+  checksum: 10c0/b1eeb3a540c8dabb6786acd4f21052fe86bbf583ba3f38f2f092073715d5a8ea191d13e429873a489799bd1c88d2ed886207b63dfe171372a8ba1ef45c001e4d
   languageName: node
   linkType: hard
 
