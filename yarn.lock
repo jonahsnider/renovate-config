@@ -630,7 +630,7 @@ __metadata:
   dependencies:
     oxfmt: "npm:0.64.0"
     oxlint: "npm:1.79.0"
-    renovate: "npm:44.34.0"
+    renovate: "npm:44.34.3"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -2760,13 +2760,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:15.1.2":
-  version: 15.1.2
-  resolution: "azure-devops-node-api@npm:15.1.2"
+"azure-devops-node-api@npm:15.1.3":
+  version: 15.1.3
+  resolution: "azure-devops-node-api@npm:15.1.3"
   dependencies:
     tunnel: "npm:0.0.6"
     typed-rest-client: "npm:2.1.0"
-  checksum: 10c0/82cbce9eb45d191ac658eacb1a8117d848832975a4e6693cecf6467384b66bc320d7bdc59e629421a84779fcdb54c435327c8ca9a545137fe89560a35a8e84d6
+  checksum: 10c0/0c4ddc6fe4e586cc13bf3ac85e6ac145e0fa675805cb3acf41237451971faf6abcae88b8700c10e8472f18e24f2c53d800cfcd92ccb0fc71b45d99c1440d4e14
   languageName: node
   linkType: hard
 
@@ -8356,9 +8356,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.34.0":
-  version: 44.34.0
-  resolution: "renovate@npm:44.34.0"
+"renovate@npm:44.34.3":
+  version: 44.34.3
+  resolution: "renovate@npm:44.34.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -8403,7 +8403,7 @@ __metadata:
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
     aws4: "npm:1.13.2"
-    azure-devops-node-api: "npm:15.1.2"
+    azure-devops-node-api: "npm:15.1.3"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.4"
     changelog-filename-regex: "npm:2.0.1"
@@ -8489,7 +8489,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/94a06d74a000b106a51ec50f618953e15d2692b9ecf268e8c1ba89c1f337ca0322f924c2c52f0505619baccf1a16bcfa5cd9d3518c363d8650b346de5afeb5af
+  checksum: 10c0/5d2c2fc4e9e2c54d0c9b5e18d5cec2b998d395daeffd92fa417c69b081d6bfa27b58657566b039619925045e0651eb451b446c4ca09afca43c6dcaf2acaeb0b9
   languageName: node
   linkType: hard
 
