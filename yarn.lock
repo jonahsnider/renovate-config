@@ -632,6 +632,9 @@ __metadata:
     oxlint: "npm:1.79.0"
     renovate: "npm:44.35.2"
     semantic-release: "npm:25.0.9"
+  dependenciesMeta:
+    re2:
+      built: true
   languageName: unknown
   linkType: soft
 
