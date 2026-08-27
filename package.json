@@ -5,15 +5,15 @@
 	"bugs": {
 		"url": "https://github.com/jonahsnider/renovate-config/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jonahsnider/renovate-config.git"
-	},
 	"license": "Apache-2.0",
 	"author": {
 		"name": "Jonah Snider",
 		"email": "jonah@jonahsnider.com",
 		"url": "https://jonahsnider.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jonahsnider/renovate-config.git"
 	},
 	"scripts": {
 		"check:duplicate-groups": "node scripts/check-duplicate-groups.mjs",
@@ -35,5 +35,12 @@
 			"built": true
 		}
 	},
-	"packageManager": "yarn@4.18.0"
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24.x",
+			"onFail": "download"
+		}
+	},
+	"packageManager": "pnpm@12.0.0"
 }

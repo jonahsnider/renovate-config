@@ -1,0 +1,4 @@
+allowBuilds:
+  core-js-pure: true
+  dtrace-provider: true
+  re2: true

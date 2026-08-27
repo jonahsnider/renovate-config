@@ -27,10 +27,10 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
+          cache: true
       - name: Enqueue repositories
         run: node scripts/enqueue-renovate.mjs "$RENOVATE_CE_SCOPE"
         env:

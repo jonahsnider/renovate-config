@@ -8,9 +8,5 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": "never"
 	},
-	"oxc.fmt.configPath": "./.oxfmtrc.json",
-	"search.exclude": {
-		"**/.pnp.*": true,
-		"**/.yarn": true
-	}
+	"oxc.fmt.configPath": "./.oxfmtrc.json"
 }
