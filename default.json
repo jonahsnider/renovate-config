@@ -59,10 +59,6 @@
 			"matchSourceUrls": ["https://github.com/fallow-rs/fallow"]
 		},
 		{
-			"groupName": "tanstack-router",
-			"matchSourceUrls": ["https://github.com/TanStack/router"]
-		},
-		{
 			"matchManagers": ["github-actions"],
 			"matchPackageNames": ["actions/checkout", "actions/cache", "actions/setup-*"],
 			"matchUpdateTypes": ["major"],
