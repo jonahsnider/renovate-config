@@ -1,4 +1,5 @@
 allowBuilds:
   core-js-pure: true
   dtrace-provider: true
+  protobufjs: true
   re2: true
