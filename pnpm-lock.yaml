@@ -122,8 +122,8 @@ importers:
         specifier: 1.81.0
         version: 1.81.0
       renovate:
-        specifier: 44.61.4
-        version: 44.61.4(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.61.5
+        version: 44.61.5(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)
@@ -2225,8 +2225,8 @@ packages:
     resolution: {integrity: sha512-ayF7iT+44LXdxJLTrTd3TLQpFDDvPCBxXxbv+pMUSuHA5Q8zyAfwkRP6aHHwNVFBUFWtxAHqwNJxF8vMZLAbVg==}
     engines: {node: '>=18'}
 
-  markdown-it@14.3.0:
-    resolution: {integrity: sha512-RCEsPjR+sr0x+AuYp601tKTkgFG4YEPLCzHST3cQ/fhlJkqAkz1L2/Qbp1j9qw5SBwQHFBoW8+hoN5xssOF0Tw==}
+  markdown-it@14.3.1:
+    resolution: {integrity: sha512-4Ej49aYTDFIQ+uBkfX8GBvJGccoARxxPep+7aWTs55ozbjQJpW9M26Fe53vnGgvLeVzva/amzjQQaQu9w0vMhA==}
     hasBin: true
 
   markdown-table@3.0.4:
@@ -3093,8 +3093,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.61.4:
-    resolution: {integrity: sha512-9hdNljbMxkA0ftvgtNEmtmKmj9zVcZYXK5VfwuzhLLJtFsCq+ImlyIJ/R6nuxhheCNrpwBqx1kjjRFZGmOtWQA==}
+  renovate@44.61.5:
+    resolution: {integrity: sha512-fapCUAKZNVn61Lgcsg1wclEob79jGLOoIQr3JqeXGryCzXzpMNr32fdAo7jjITHvS/e6jPxm1li5u6mQRYy1RQ==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5936,7 +5936,7 @@ snapshots:
       type-fest: 4.41.0
       web-worker: 1.5.0
 
-  markdown-it@14.3.0:
+  markdown-it@14.3.1:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
@@ -6803,7 +6803,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.61.4(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.61.5(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -6889,7 +6889,7 @@ snapshots:
       klona: 2.0.6
       lru-cache: 11.5.2
       luxon: 3.7.2
-      markdown-it: 14.3.0
+      markdown-it: 14.3.1
       markdown-table: 3.0.4
       minimatch: 10.2.6
       moo: 0.5.3

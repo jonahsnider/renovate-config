@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"oxfmt": "0.66.0",
 		"oxlint": "1.81.0",
-		"renovate": "44.61.4",
+		"renovate": "44.61.5",
 		"semantic-release": "25.0.9"
 	},
 	"dependenciesMeta": {
