@@ -17,18 +17,22 @@
 	},
 	"scripts": {
 		"check:duplicate-groups": "node scripts/check-duplicate-groups.mjs",
+		"check:codemods": "tsc --project codemods/crypto-random-string-v6/tsconfig.json && codemod workflow validate --workflow codemods/crypto-random-string-v6 && codemod jssg test codemods/crypto-random-string-v6/scripts/codemod.ts --language tsx codemods/crypto-random-string-v6/tests --sequential --strictness ast",
 		"lint": "oxlint",
 		"lint:fix": "oxlint --fix",
 		"style": "oxfmt --check",
 		"style:fix": "oxfmt --write",
 		"test:enqueue": "node --test scripts/enqueue-renovate.test.mjs",
-		"validate": "renovate-config-validator"
+		"validate": "renovate-config-validator --no-global default.json renovate.json && renovate-config-validator renovate.config.cjs"
 	},
 	"devDependencies": {
+		"@codemod.com/jssg-types": "1.6.3",
+		"codemod": "1.17.3",
 		"oxfmt": "0.66.0",
 		"oxlint": "1.81.0",
 		"renovate": "44.65.5",
-		"semantic-release": "25.0.9"
+		"semantic-release": "25.0.9",
+		"typescript": "7.0.2"
 	},
 	"dependenciesMeta": {
 		"re2": {

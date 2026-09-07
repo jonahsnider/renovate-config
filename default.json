@@ -79,6 +79,20 @@
 			"minimumReleaseAge": "24 hours"
 		},
 		{
+			"description": "Migrate crypto-random-string v5 to its synchronous v6 API",
+			"matchDatasources": ["npm"],
+			"matchPackageNames": ["crypto-random-string"],
+			"matchCurrentVersion": "/^5\\./",
+			"matchNewValue": "/^6\\./",
+			"constraintsFiltering": "strict",
+			"postUpgradeTasks": {
+				"commands": [
+					"codemod workflow run --workflow /usr/src/app/codemods/crypto-random-string-v6 --target . --allow-dirty --no-interactive --disable-analytics"
+				],
+				"executionMode": "update"
+			}
+		},
+		{
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["vercel"],
 			"matchUpdateTypes": ["major"],

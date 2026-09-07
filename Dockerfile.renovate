@@ -1,5 +1,15 @@
 FROM ghcr.io/mend/renovate-ce:15.5.0@sha256:4e1537efbdb198599573051612691c677fe1150a3a3d60c02a104b5b18e07765
 
+USER root
+
+RUN install-tool node 24.20.0
+RUN npm install --global codemod@1.17.3
+RUN cp --recursive /opt/containerbase/tools/node/24.20.0/lib/node_modules/codemod /opt/codemod
+RUN ln --symbolic /opt/codemod/codemod /usr/local/bin/codemod
+
+COPY codemods /usr/src/app/codemods
 COPY renovate.config.cjs /usr/src/app/config.js
+
+USER 12021
 
 ENV RENOVATE_CONFIG_FILE=/usr/src/app/config.js

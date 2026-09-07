@@ -1,0 +1,23 @@
+schema_version: '1.0'
+
+name: 'crypto-random-string-v6'
+version: '0.1.0'
+description: 'Migrate crypto-random-string v5 async imports to the v6 synchronous API'
+author: 'Jonah Snider <jonah@jonahsnider.com>'
+license: 'Apache-2.0'
+
+targets:
+  languages: ['tsx']
+
+keywords: ['crypto-random-string', 'migration']
+
+registry:
+  access: 'private'
+  visibility: 'private'
+
+capabilities: []
+
+workflows:
+  - name: main
+    default: true
+    path: workflow.yaml
