@@ -3,7 +3,7 @@
 	"build": {
 		"builder": "DOCKERFILE",
 		"dockerfilePath": "Dockerfile.renovate",
-		"watchPatterns": ["Dockerfile.renovate", "railway.json", "renovate.config.cjs"]
+		"watchPatterns": ["Dockerfile.renovate", "codemods/**", "railway.json", "renovate.config.cjs"]
 	},
 	"deploy": {
 		"healthcheckPath": "/health",
