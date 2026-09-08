@@ -1,3 +1,4 @@
-import cryptoRandomStringAsync from 'crypto-random-string';
+import cryptoRandomString from 'crypto-random-string';
 
-export const value = cryptoRandomStringAsync({length: 16});
+export const value = cryptoRandomString({length: 16});
+export const generateValue = () => cryptoRandomString({length: 8});

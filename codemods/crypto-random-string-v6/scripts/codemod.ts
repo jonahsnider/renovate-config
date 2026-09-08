@@ -19,7 +19,7 @@ const codemod: Codemod<TSX> = async root => {
 			continue;
 		}
 
-		const syncLocalName = parsedImport.defaultImport ?? asyncSpecifier.local;
+		const syncLocalName = parsedImport.defaultImport ?? (asyncSpecifier.local === removedExport ? 'cryptoRandomString' : asyncSpecifier.local);
 		const remainingNamedImports = parsedImport.namedImports.filter(({imported}) => imported !== removedExport);
 		const replacement = formatImport(syncLocalName, remainingNamedImports, parsedImport.quote, parsedImport.semicolon);
 		const awaitedCalls = findDirectlyAwaitedCalls(rootNode, asyncSpecifier.local);
@@ -32,8 +32,8 @@ const codemod: Codemod<TSX> = async root => {
 			edits.push(awaitedCall.replace(synchronousCall));
 		}
 
-		if (parsedImport.defaultImport && parsedImport.defaultImport !== asyncSpecifier.local) {
-			edits.push(...renameReferences(importNode, asyncSpecifier.local, parsedImport.defaultImport, awaitedCalls));
+		if (syncLocalName !== asyncSpecifier.local) {
+			edits.push(...renameReferences(importNode, asyncSpecifier.local, syncLocalName, awaitedCalls));
 		}
 
 		edits.push(importNode.replace(replacement));
