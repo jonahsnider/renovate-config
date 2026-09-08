@@ -6,5 +6,9 @@ module.exports = {
 		YARNSW_COREPACK_COMPAT: 'true',
 	},
 	forkProcessing: 'disabled',
-	gitIgnoredAuthors: ['29139614+renovate[bot]@users.noreply.github.com'],
+	gitIgnoredAuthors: [
+		'114827586+autofix-ci[bot]@users.noreply.github.com',
+		'29139614+renovate[bot]@users.noreply.github.com',
+		'287348350+jonahsnider[bot]@users.noreply.github.com',
+	],
 };
