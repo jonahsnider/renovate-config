@@ -79,6 +79,13 @@
 			"automerge": true
 		},
 		{
+			"description": "Migrate the frozen setup-vp v1 tag to its exact version",
+			"matchManagers": ["github-actions"],
+			"matchPackageNames": ["voidzero-dev/setup-vp"],
+			"matchCurrentValue": "/^v1$/",
+			"replacementVersion": "v1.15.0"
+		},
+		{
 			"matchDatasources": ["npm"],
 			"minimumReleaseAge": "24 hours"
 		},
