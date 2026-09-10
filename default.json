@@ -83,7 +83,8 @@
 			"matchManagers": ["github-actions"],
 			"matchPackageNames": ["voidzero-dev/setup-vp"],
 			"matchCurrentValue": "/^v1$/",
-			"replacementVersion": "v1.15.0"
+			"replacementVersion": "v1.15.0",
+			"versioning": "semver"
 		},
 		{
 			"matchDatasources": ["npm"],
