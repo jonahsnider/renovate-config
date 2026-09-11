@@ -128,8 +128,8 @@ importers:
         specifier: 1.82.0
         version: 1.82.0
       renovate:
-        specifier: 44.74.1
-        version: 44.74.1(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.75.1
+        version: 44.75.1(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -2693,8 +2693,8 @@ packages:
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     hasBin: true
 
-  node-html-parser@9.0.2:
-    resolution: {integrity: sha512-XhM0CTeF4Hkw3el7VCyasGJCEvp500Xf0s1J3ZigYfTOkVqZRQRY3EiAw1CbJzNrxaKSDthXiT9c/4CBwIJyfw==}
+  node-html-parser@9.0.3:
+    resolution: {integrity: sha512-iaQ9rokcYNp99IY0h82q04Wtc27SObRT+OEytdJh0bFv2IN0fypnU63KUNVavkPSiwsmIELG1eUenajGhzrvpg==}
 
   node@runtime:24.21.0:
     resolution:
@@ -3280,8 +3280,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.74.1:
-    resolution: {integrity: sha512-Si5XKYH6BodkUUqgQfOqFXdZpo9wx57wHvBz/nziYVnUX1PgsNHggeew9X28/Zw5lP2BB7Rpzl5rup1Ujjwl5A==}
+  renovate@44.75.1:
+    resolution: {integrity: sha512-iLcVtsT2wfuW8IyEckCphT555qxP+joo7Z9ntbeOkJYanILyTRzAJ/uLWkCZutMeHa/mMlUXuGrO3cWUd2avKw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -6675,7 +6675,7 @@ snapshots:
       which: 7.0.0
     optional: true
 
-  node-html-parser@9.0.2:
+  node-html-parser@9.0.3:
     dependencies:
       css-select: 5.2.2
       entities: 8.1.0
@@ -7089,7 +7089,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.74.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.75.1(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -7181,7 +7181,7 @@ snapshots:
       moo: 0.5.3
       ms: 2.1.3
       neotraverse: 1.0.1
-      node-html-parser: 9.0.2
+      node-html-parser: 9.0.3
       p-all: 5.0.1
       p-map: 7.0.7
       p-queue: 9.3.3
