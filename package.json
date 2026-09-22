@@ -30,7 +30,7 @@
 		"codemod": "1.18.3",
 		"oxfmt": "0.68.0",
 		"oxlint": "1.83.0",
-		"renovate": "44.104.2",
+		"renovate": "44.105.4",
 		"semantic-release": "25.0.9",
 		"typescript": "7.0.2"
 	},
