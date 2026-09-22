@@ -28,7 +28,7 @@
 	"devDependencies": {
 		"@codemod.com/jssg-types": "1.6.3",
 		"codemod": "1.18.3",
-		"oxfmt": "0.68.0",
+		"oxfmt": "0.69.0",
 		"oxlint": "1.83.0",
 		"renovate": "44.105.4",
 		"semantic-release": "25.0.9",
