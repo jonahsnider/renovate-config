@@ -3,7 +3,6 @@
 	"extends": [
 		"config:recommended",
 		":label(dependencies)",
-		":semanticCommitTypeAll(build)",
 		":disableRateLimiting",
 		":automergeMinor",
 		":automergeBranch",
