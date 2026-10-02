@@ -182,8 +182,8 @@ importers:
         specifier: 1.86.0
         version: 1.86.0
       renovate:
-        specifier: 44.127.1
-        version: 44.127.1(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.129.0
+        version: 44.129.0(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -2891,8 +2891,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  openpgp@6.3.1:
-    resolution: {integrity: sha512-7oSPvmlKPojxFoyelT5DWPIAVmqWZh4qU/5pO6bdoShEtRpCw9Sye9IXUQj6EFM3XpgGssqccAr705YtTcLNQw==}
+  openpgp@6.3.2:
+    resolution: {integrity: sha512-wcZTzHz41LV8Y48zH/JlD1JT8YdNmpWOuMAjQ/podvvCwsjBEU37K3znJh4UQcj3hksE5z9TzvhbUbwzsGvlLQ==}
     engines: {node: '>= 18.0.0', typescript: '>= 5.0.0'}
     peerDependencies:
       '@openpgp/web-stream-tools': ~0.3.0
@@ -3217,8 +3217,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.127.1:
-    resolution: {integrity: sha512-UjJmpW0nuwDf5j2yoYDdcyOx5W/b61Gj77f7dKocuhJdsvCcUmF+s7QHL1/SxivpCWKo1tPGcGlaNKUR33oUhQ==}
+  renovate@44.129.0:
+    resolution: {integrity: sha512-Fi8H1B4Uqtpp9elgKXkAsi9AZHXsuP1ob/6HD6AEyqFvQMGpEz5pB0WPq5ycMGQc5bpxik7lBL9Of5+Uo6XEXA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -6699,7 +6699,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openpgp@6.3.1:
+  openpgp@6.3.2:
     optional: true
 
   oxfmt@0.71.0:
@@ -7054,7 +7054,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.127.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.129.0(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7180,7 +7180,7 @@ snapshots:
       yauzl: 3.4.0
       zod: 4.6.5
     optionalDependencies:
-      openpgp: 6.3.1
+      openpgp: 6.3.2
       re2: 1.26.1
     transitivePeerDependencies:
       - '@node-rs/xxhash'
