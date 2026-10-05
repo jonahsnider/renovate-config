@@ -182,8 +182,8 @@ importers:
         specifier: 1.86.0
         version: 1.86.0
       renovate:
-        specifier: 44.132.5
-        version: 44.132.5(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.132.6
+        version: 44.132.6(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -2727,9 +2727,6 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
-  nan@2.28.0:
-    resolution: {integrity: sha512-fTsDz99OTq2sVePhGdp4qQhggZFtKr64ZNVyVajRKtMOkJxYekplBh577PiJB12v/D3s2E5cGtOI45LWp6rnLQ==}
-
   nan@2.29.0:
     resolution: {integrity: sha512-GlGk3HIvitbvs+LT3g6XUP1kpirKNvmDFwF/bmo6XNWSb/eYEs/O4bfgIEIXCZ+lIOTS5xNwDvSGMw6FJdAhtA==}
 
@@ -3220,8 +3217,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.132.5:
-    resolution: {integrity: sha512-3bCOC/3fz5ILyaRyOQU5WYmxRMlJsDyRe1piozt14lBeQL0phqD3ixXpH9GtWjBE0zxp7jbzMvWReflHhg7f5A==}
+  renovate@44.132.6:
+    resolution: {integrity: sha512-/9jC2dLW0KqkyO6vf8V9kUTsBgHrXiwY51FgjH5Kz5I+q5ClmLGcb6PIR2gq2pWTMDS+0OqLdBhbgWAAHxirLQ==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5460,7 +5457,7 @@ snapshots:
 
   dtrace-provider@0.8.8:
     dependencies:
-      nan: 2.28.0
+      nan: 2.29.0
     optional: true
 
   dunder-proto@1.0.1:
@@ -6604,9 +6601,6 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nan@2.28.0:
-    optional: true
-
   nan@2.29.0:
     optional: true
 
@@ -7060,7 +7054,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.132.5(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.132.6(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
