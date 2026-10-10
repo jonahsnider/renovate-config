@@ -31,6 +31,12 @@
 			"matchPackageNames": ["rollup", "@rollup/**", "rollup-plugin-*"]
 		},
 		{
+			"description": "Update Vite+ and Vitest together",
+			"groupName": "vite-plus monorepo",
+			"matchSourceUrls": ["https://github.com/voidzero-dev/vite-plus", "https://github.com/vitest-dev/vitest"],
+			"matchUpdateTypes": ["digest", "patch", "minor", "major"]
+		},
+		{
 			"groupName": "drizzle",
 			"matchPackageNames": ["drizzle-*"]
 		},
