@@ -62,7 +62,7 @@
 		},
 		{
 			"groupName": "mutative",
-			"matchSourceUrls": ["https://github.com/unadlib/mutative", "https://github.com/mutativejs/use-mutative"],
+			"matchSourceUrls": ["https://github.com/unadlib/mutative", "https://github.com/mutativejs/use-mutative"]
 		},
 		{
 			"groupName": "simplewebauthn",
