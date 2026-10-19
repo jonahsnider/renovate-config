@@ -61,6 +61,10 @@
 			"matchSourceUrls": ["https://github.com/fallow-rs/fallow"]
 		},
 		{
+			"groupName": "mutative",
+			"matchSourceUrls": ["https://github.com/unadlib/mutative", "https://github.com/mutativejs/use-mutative"],
+		},
+		{
 			"groupName": "simplewebauthn",
 			"matchSourceUrls": ["https://github.com/MasterKale/SimpleWebAuthn"]
 		},
