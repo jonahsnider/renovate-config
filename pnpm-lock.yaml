@@ -182,8 +182,8 @@ importers:
         specifier: 1.89.0
         version: 1.89.0
       renovate:
-        specifier: 44.171.1
-        version: 44.171.1(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.171.8
+        version: 44.171.8(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -391,8 +391,8 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@containerbase/base@14.44.0':
-    resolution: {integrity: sha512-tgZcg3rSFPV1VGecAWg2pm/L+wyuUqE76HXBQQxi39dqZgtAmbmBvLYOBkV/Alt714hLQ455r4IqCLM32ZPyAQ==}
+  '@containerbase/base@14.44.2':
+    resolution: {integrity: sha512-s44NgaU6fN3BzI+mLNLa+0TfYDor7/j2Vg5c5lOiMgsd2hiuXvw9HH1urF8ngl/DqoACjllVtIqbSXuDkn4ihQ==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -635,12 +635,14 @@ packages:
   '@opentelemetry/sdk-trace-base@2.12.0':
     resolution: {integrity: sha512-JOERgZCxRM06FEJ5kEWxlSRChah6MmXDx3KwCruqEv/iEyLkTokCSemf2y1w8oIHtfrr8EVTpzebq/31vn2Cpg==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-trace-node@2.12.0':
     resolution: {integrity: sha512-9DufH1IlmQMoKAfot5y/FhTP1RnmhLb5K6eKmJO/bvzPjYwPAazoiAUbTZFdPbqxOXN0FEbhZx/e6SB1Og4jmg==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
@@ -1016,8 +1018,8 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@renovatebot/base-image@13.135.0':
-    resolution: {integrity: sha512-JxnT8QYmJn7h0w+v0pB1JqA9caDrBVt1CyUfXP7CCNYoJXkzC+YZKekeAa2BYEHnF9ljTmxPqfrfAQTcbLaa6Q==}
+  '@renovatebot/base-image@13.135.3':
+    resolution: {integrity: sha512-qalmKWakFg1ehsgvOPdxzlhcfJb2Gjwoz6OGDbI1CrJykzJsTuOwEkekaXHy4l005bh4QZ4hNFinb8dz40M7lg==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -1025,8 +1027,8 @@ packages:
       zod:
         optional: true
 
-  '@renovatebot/detect-tools@4.0.22':
-    resolution: {integrity: sha512-WmTPjbvMvrpv2sGaCyMNlBCt+R1pp372mkyFkNchl6b15/dvtRD99JlQ54hcSU/fXP8xNXbHO+4gFZSZTM3DpQ==}
+  '@renovatebot/detect-tools@4.0.23':
+    resolution: {integrity: sha512-+mZxeioZUc1UAs2NO02x5RcPQdvX4B4eJsrFYSIVT8yRdtsc9OV8L/KeYnKatWFd8BxbOyr5mS8I8JbolOPVqg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
   '@renovatebot/good-enough-parser@2.0.1':
@@ -1918,8 +1920,8 @@ packages:
   eventemitter3@5.0.4:
     resolution: {integrity: sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==}
 
-  execa@10.1.0:
-    resolution: {integrity: sha512-5HT/600HqXEtmkb9mK/PkTWw+bQSCzPnWiZ4/87wD3Hi0wFzCapOuNT9p4M08PDd+KLHdHvFhKjOWmNx/npRNQ==}
+  execa@10.1.1:
+    resolution: {integrity: sha512-yJAC9ulsE6fU0K6wzJBIH+wI+KAtMeu6Ck8rs23OVzvEhqXjGADdI6K+YNIDAjcQQ6AwXTD96cKExJo6xFJXyg==}
     engines: {node: '>=22'}
 
   execa@8.0.1:
@@ -2110,8 +2112,8 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
-  google-auth-library@11.2.0:
-    resolution: {integrity: sha512-R9/Dwc3swSur04RnizQ6EBUmmcno2cC5cAKtrG/C+pY+W7c5l6rSnFWgMkR7NSYj1n6XWmb/KhcjxGslWm4yIA==}
+  google-auth-library@11.3.0:
+    resolution: {integrity: sha512-gZCyszARHj47WNcKrAcQtimDwtTZpydRZ3HSeb66hObfQU9uaG50ejsZ8LzGISIVAjpsZEouGVs65Q/XRau0Qg==}
     engines: {node: '>=22'}
 
   google-logging-utils@1.1.3:
@@ -3243,8 +3245,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.171.1:
-    resolution: {integrity: sha512-Gr3C8mBN301wiq4lwIZo89RpLnp8bAGLPr3rrDyP3iSwYz6hYC8mijXc1s3hsUIu+VtMHWA2sfQ6Rhc8BCyG4w==}
+  renovate@44.171.8:
+    resolution: {integrity: sha512-Z2l1DHVQvYkQXKoo83FycyAGzNqSaMtCk9hl7nvZAobAtldg7/cqX8dSgyhP5nNNlWmMGcFP3+jVYKSbjsvlXA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3817,9 +3819,6 @@ packages:
     resolution: {integrity: sha512-xYqdZFUK/VYazNl/oCDYN+3WloWQwMfZxBoiNt6qNyk+xfOdi598muWE42rNZFp1kNOiqW936q5RhUdnpqElSg==}
     engines: {node: '>=18'}
 
-  zod@4.6.6:
-    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
-
   zod@4.6.7:
     resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
@@ -4161,7 +4160,7 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@containerbase/base@14.44.0(zod@4.6.7)':
+  '@containerbase/base@14.44.2(zod@4.6.7)':
     optionalDependencies:
       zod: 4.6.7
 
@@ -4685,18 +4684,18 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
 
-  '@renovatebot/base-image@13.135.0(zod@4.6.7)':
+  '@renovatebot/base-image@13.135.3(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.44.0(zod@4.6.7)
+      '@containerbase/base': 14.44.2(zod@4.6.7)
     optionalDependencies:
       zod: 4.6.7
 
-  '@renovatebot/detect-tools@4.0.22':
+  '@renovatebot/detect-tools@4.0.23':
     dependencies:
       fs-extra: 11.4.1
       toml-eslint-parser: 1.0.3
       upath: 3.0.8
-      zod: 4.6.6
+      zod: 4.6.7
 
   '@renovatebot/good-enough-parser@2.0.1':
     dependencies:
@@ -5579,7 +5578,7 @@ snapshots:
 
   eventemitter3@5.0.4: {}
 
-  execa@10.1.0:
+  execa@10.1.1:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       figures: 6.1.0
@@ -5852,7 +5851,7 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.2.0
 
-  google-auth-library@11.2.0(supports-color@7.2.0):
+  google-auth-library@11.3.0(supports-color@7.2.0):
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -7102,7 +7101,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.171.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.171.8(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7135,8 +7134,8 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.3.0(@opentelemetry/api@1.9.1)
-      '@renovatebot/base-image': 13.135.0(zod@4.6.7)
-      '@renovatebot/detect-tools': 4.0.22
+      '@renovatebot/base-image': 13.135.3(zod@4.6.7)
+      '@renovatebot/detect-tools': 4.0.23
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.12(supports-color@7.2.0)
       '@renovatebot/pep440': 5.0.1
@@ -7168,7 +7167,7 @@ snapshots:
       emoji-regex: 10.6.0
       emojibase: 17.0.0
       emojibase-regex: 17.0.0
-      execa: 10.1.0
+      execa: 10.1.1
       find-packages: 10.0.4
       find-up: 8.0.0
       fs-extra: 11.4.1
@@ -7176,7 +7175,7 @@ snapshots:
       github-url-from-git: 1.5.0
       glob: 13.0.6
       global-agent: 3.0.0
-      google-auth-library: 11.2.0(supports-color@7.2.0)
+      google-auth-library: 11.3.0(supports-color@7.2.0)
       got: 16.0.0
       graph-data-structure: 4.5.0
       handlebars: 4.7.10
@@ -7834,8 +7833,6 @@ snapshots:
   yocto-queue@1.2.2: {}
 
   yoctocolors@2.2.0: {}
-
-  zod@4.6.6: {}
 
   zod@4.6.7: {}
 
