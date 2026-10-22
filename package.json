@@ -16,6 +16,7 @@
 		"url": "git+https://github.com/jonahsnider/renovate-config.git"
 	},
 	"scripts": {
+		"check:railway": "tsc --project .railway/tsconfig.json",
 		"check:duplicate-groups": "node scripts/check-duplicate-groups.mjs",
 		"check:codemods": "tsc --project codemods/crypto-random-string-v6/tsconfig.json && codemod workflow validate --workflow codemods/crypto-random-string-v6 && codemod jssg test codemods/crypto-random-string-v6/scripts/codemod.ts --language tsx codemods/crypto-random-string-v6/tests --sequential --strictness ast",
 		"lint": "oxlint",
@@ -30,6 +31,7 @@
 		"codemod": "1.18.6",
 		"oxfmt": "0.74.0",
 		"oxlint": "1.89.0",
+		"railway": "3.16.0",
 		"renovate": "44.175.5",
 		"semantic-release": "25.0.9",
 		"typescript": "7.0.2"

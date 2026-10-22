@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"erasableSyntaxOnly": true,
+		"module": "Preserve",
+		"moduleResolution": "Bundler",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"verbatimModuleSyntax": true
+	},
+	"include": ["railway.ts"]
+}

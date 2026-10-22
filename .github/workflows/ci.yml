@@ -24,6 +24,8 @@ jobs:
             run: pnpm run test:enqueue
           - name: Check for duplicate package groups
             run: pnpm run check:duplicate-groups
+          - name: Check Railway config
+            run: pnpm run check:railway
           - name: Check codemods
             run: pnpm run check:codemods
           - name: Validate Renovate config

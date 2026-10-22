@@ -16,7 +16,7 @@ Set your Renovate config to use this config
 
 ## Self-hosting
 
-Mend Renovate CE runs from `Dockerfile.renovate` on Railway.
+Mend Renovate CE runs from `Dockerfile.renovate` on Railway. The project infrastructure is defined in `.railway/railway.ts`.
 
 The `Enqueue Renovate CE` workflow fans out a `main` push to every enabled repository. A manual run defaults to the `jonahsnider/renovate-config` canary and can be expanded to all repositories.
 
