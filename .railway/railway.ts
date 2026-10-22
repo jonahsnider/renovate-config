@@ -2,7 +2,7 @@ import {defineRailway, github, postgres, preserve, project, service, volume} fro
 
 export default defineRailway(() => {
 	const postgresDb = postgres('Postgres', {region: 'us-west2'});
-	postgresDb.networking = {privateNetworkEndpoint: 'postgres', tcpProxies: {'5432': {}}};
+	postgresDb.networking = {privateNetworkEndpoint: 'postgres', tcpProxies: {'5432': null}};
 	const postgresVolume = volume('postgres-volume', {
 		alerts: {usage: {'100': {}, '80': {}, '95': {}}},
 		allowOnlineResize: true,
