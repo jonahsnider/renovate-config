@@ -1,15 +1,9 @@
 import {defineRailway, github, postgres, preserve, project, service, volume} from 'railway/iac';
 
 export default defineRailway(() => {
-	const postgresDb = postgres('Postgres', {region: 'us-west2'});
+	const postgresDb = postgres('Postgres');
 	postgresDb.networking = {privateNetworkEndpoint: 'postgres', tcpProxies: {'5432': null}};
-	const postgresVolume = volume('postgres-volume', {
-		alerts: {usage: {'100': {}, '80': {}, '95': {}}},
-		allowOnlineResize: true,
-		region: 'us-west2',
-		sizeMB: 5000,
-	});
-	const renovateCache = volume('renovate-cache', {alerts: {usage: {'100': {}, '80': {}, '95': {}}}, allowOnlineResize: true, region: 'us-west2', sizeMB: 5000});
+	const renovateCache = volume('renovate-cache', {region: 'us-west2', sizeMB: 5000});
 	const renovate = service('Renovate', {
 		source: github('jonahsnider/renovate-config', {branch: 'main', checkSuites: false}),
 		build: {
@@ -60,6 +54,6 @@ export default defineRailway(() => {
 	});
 
 	return project('renovate', {
-		resources: [renovate, postgresDb, postgresVolume, renovateCache],
+		resources: [renovate, postgresDb, renovateCache],
 	});
 });
