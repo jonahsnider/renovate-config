@@ -14,6 +14,7 @@ export default defineRailway(() => {
 		},
 		healthcheck: '/health',
 		healthcheckTimeout: 300,
+		tracing: {enabled: true},
 		replicas: {'us-west2': 1},
 		deploy: {restartPolicyType: 'ON_FAILURE', restartPolicyMaxRetries: 10, limitOverride: {containers: {cpu: 2, memoryBytes: 5000000000}}},
 		domains: [{domain: 'renovate.jonahsnider.com', port: 8080}],
