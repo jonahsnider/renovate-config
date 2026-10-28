@@ -32,7 +32,7 @@
 		"oxfmt": "0.75.0",
 		"oxlint": "1.90.0",
 		"railway": "3.16.0",
-		"renovate": "44.186.7",
+		"renovate": "44.188.2",
 		"semantic-release": "25.0.9",
 		"typescript": "7.0.2"
 	},
