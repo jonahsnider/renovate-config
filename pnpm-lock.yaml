@@ -185,8 +185,8 @@ importers:
         specifier: 3.16.0
         version: 3.16.0
       renovate:
-        specifier: 44.192.0
-        version: 44.192.0(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.192.2
+        version: 44.192.2(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -1039,9 +1039,9 @@ packages:
     resolution: {integrity: sha512-+mZxeioZUc1UAs2NO02x5RcPQdvX4B4eJsrFYSIVT8yRdtsc9OV8L/KeYnKatWFd8BxbOyr5mS8I8JbolOPVqg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
-  '@renovatebot/good-enough-parser@2.0.1':
-    resolution: {integrity: sha512-FBLawccaWOPwqXgMSB3FTp1VTfGJWSTTXY2Q3kWPoLYOpKYBr3V37vtqFLjb5wUFkrXN2Sj+S840JXKfHwy8Rg==}
-    engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
+  '@renovatebot/good-enough-parser@3.0.0':
+    resolution: {integrity: sha512-dvFb9ST8WVo+YsrhK6vbWBib49Biu4/fPmZf1QRNIR1Ov5T04god/AA3rRJcyRrofzt/K96vPO9RPhEE3u+hfg==}
+    engines: {node: '>=24.10.0', pnpm: '>=10.0.0'}
 
   '@renovatebot/osv-offline-db@4.2.0':
     resolution: {integrity: sha512-1qUj7k3abBDWp8HAa19lcON9+x8y3jpFBcxX0ILVLsb22H9zBqb7wArgdcNGsinRyjfZwjFyqND8X1fnT4rS3A==}
@@ -1697,8 +1697,8 @@ packages:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.37.0:
-    resolution: {integrity: sha512-Nc5PL23nz3HjRcHRc6O7ikCc3lnFM2SQg5nwSDMGOi0jv0g178mUMClgfT6WuOevrEsPOTQCWOaGFV5PKFYymg==}
+  cronstrue@3.38.0:
+    resolution: {integrity: sha512-i10xR7fS4AH9LKwmt3gYdt/5lSsB2qFGSNfC8aeyYybxo48DCMz+nUrSVI4kUj8yo+SgTbMJqp/BWEem9avlcA==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -3266,8 +3266,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.192.0:
-    resolution: {integrity: sha512-h1jyhoSgPigSfVz512n+BTFX2UgMduJ9X/LZwmMgSw91U1tZqaG7n8wAazX1joBK8bVpSGDBzCt7kmrT3wgWZQ==}
+  renovate@44.192.2:
+    resolution: {integrity: sha512-shhfBD4lx6up2Io+kp587SUWL2XcA1Gg74DW5ku/8o0oL670RfBHErZgiB6m2r9vM7Vj025Kirl6CsgaD4qeMw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4728,7 +4728,7 @@ snapshots:
       upath: 3.0.8
       zod: 4.6.7
 
-  '@renovatebot/good-enough-parser@2.0.1':
+  '@renovatebot/good-enough-parser@3.0.0':
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.10
@@ -5412,7 +5412,7 @@ snapshots:
 
   croner@10.0.1: {}
 
-  cronstrue@3.37.0: {}
+  cronstrue@3.38.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -7148,7 +7148,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.192.0(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.192.2(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7183,7 +7183,7 @@ snapshots:
       '@redis/client': 6.3.0(@opentelemetry/api@1.9.1)
       '@renovatebot/base-image': 13.147.0(zod@4.6.7)
       '@renovatebot/detect-tools': 4.0.23
-      '@renovatebot/good-enough-parser': 2.0.1
+      '@renovatebot/good-enough-parser': 3.0.0
       '@renovatebot/osv-offline': 4.2.0(supports-color@7.2.0)
       '@renovatebot/pep440': 5.0.1
       '@renovatebot/pgp': 2.0.4
@@ -7204,7 +7204,7 @@ snapshots:
       commander: 15.0.0
       common-tags: 1.8.2
       croner: 10.0.1
-      cronstrue: 3.37.0
+      cronstrue: 3.38.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
