@@ -114,5 +114,15 @@
 			"automerge": true
 		}
 	],
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"fileFormat": "toml",
+			"managerFilePatterns": ["/^netlify\\.toml$/"],
+			"matchStrings": ["{ \"currentValue\": build.environment.NODE_VERSION }"],
+			"depNameTemplate": "node",
+			"datasourceTemplate": "node-version"
+		}
+	],
 	"timezone": "America/Los_Angeles"
 }
