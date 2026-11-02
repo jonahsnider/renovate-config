@@ -1,4 +1,4 @@
-FROM ghcr.io/mend/renovate-ce:15.10.0@sha256:5f2235c7b33c46900a276bb691c6d6da6d5fe9c427a6cd98b15a3856df28f8a6
+FROM ghcr.io/mend/renovate-ce:15.11.0@sha256:126aee0835b1d39bdd5147f461fdf1ee9c724ea820ce699e8404ff807efcc71c
 
 USER root
 
