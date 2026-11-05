@@ -5,10 +5,14 @@
 		":label(dependencies)",
 		":disableRateLimiting",
 		":automergeMinor",
+		":automergeDigest",
 		":automergeBranch",
 		":prNotPending",
 		"helpers:pinGitHubActionDigests"
 	],
+	"pinDigest": {
+		"automerge": true
+	},
 	"gitIgnoredAuthors": [
 		"114827586+autofix-ci[bot]@users.noreply.github.com",
 		"29139614+renovate[bot]@users.noreply.github.com",
