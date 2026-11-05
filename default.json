@@ -1,6 +1,14 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:recommended", ":label(dependencies)", ":disableRateLimiting", ":automergeMinor", ":automergeBranch", ":prNotPending"],
+	"extends": [
+		"config:recommended",
+		":label(dependencies)",
+		":disableRateLimiting",
+		":automergeMinor",
+		":automergeBranch",
+		":prNotPending",
+		"helpers:pinGitHubActionDigests"
+	],
 	"gitIgnoredAuthors": [
 		"114827586+autofix-ci[bot]@users.noreply.github.com",
 		"29139614+renovate[bot]@users.noreply.github.com",
