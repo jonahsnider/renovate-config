@@ -185,8 +185,8 @@ importers:
         specifier: 3.16.0
         version: 3.16.0
       renovate:
-        specifier: 44.221.4
-        version: 44.221.4(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.221.5
+        version: 44.221.5(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -393,15 +393,6 @@ packages:
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
-
-  '@containerbase/base@14.66.4':
-    resolution: {integrity: sha512-YeR8U7ht8EsHpwU0cd3Ig3d7n0kFdF2RYrUdRuLZoAgKeRk9zI5gE88IwE+sLF/Y19EBdm58fB8weTo07dyK+A==}
-    engines: {node: '>=24.10.0'}
-    peerDependencies:
-      zod: ^4.0.0
-    peerDependenciesMeta:
-      zod:
-        optional: true
 
   '@containerbase/base@14.66.5':
     resolution: {integrity: sha512-5vbXTmyX+pZzIQWKc9x0E0wkSwwPLuO+tLf0IehPt+PBTdbpmmAQ9DAKW+CypEYYvFz9Pl7w65XyjXjtgqB1Hw==}
@@ -2141,8 +2132,8 @@ packages:
     resolution: {integrity: sha512-DG+DAAkRtno+oDr/GBsliAkhN9+zczOPM5qXk3efDZY3qvyRnZU+NwQlb/IOY6cSnxxTR9z3aHCcShJyjb0hJA==}
     engines: {node: '>=22'}
 
-  got@16.1.0:
-    resolution: {integrity: sha512-LOvohAoc/3O8+Gi3E5RRvamkyXmJq9ewj/cimmqQYn+Me5OKCVHKQI9ygF0O882l573lrpLbKZpsydYRttpDEg==}
+  got@16.2.0:
+    resolution: {integrity: sha512-aOgWdlVL/pipu3Cqr9okwOdRZPsWwntgTup+eTn2fE1k4vky6oybjVUZxCSdAfOJkSxoyGKcGlgxf2+LcPdgVg==}
     engines: {node: '>=22'}
 
   graceful-fs@4.2.10:
@@ -3259,8 +3250,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.221.4:
-    resolution: {integrity: sha512-rnyXCYT2I0xXB3VfcVoD07oWFYtRYIzzXzL5XropVWA/BOz1AUHSjQpXEriNdQDmWB1IHMc9b0VI1eojWLpcmg==}
+  renovate@44.221.5:
+    resolution: {integrity: sha512-D8jUS7bzAWCPdRe2UuoGdusda2J4/f6i3YbWw7r8cwA68AW63HCE1e4jlra/INSnPnbWW1kLFAmYuYPZfXdWWQ==}
     engines: {node: ^24.11.0 || ^26.13.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4178,12 +4169,6 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@containerbase/base@14.66.4(zod@4.6.7)':
-    dependencies:
-      semver: 7.8.5
-    optionalDependencies:
-      zod: 4.6.7
-
   '@containerbase/base@14.66.5(zod@4.6.7)':
     dependencies:
       semver: 7.8.5
@@ -4713,7 +4698,7 @@ snapshots:
 
   '@renovatebot/osv-offline-db@4.5.10(supports-color@7.2.0)(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.66.4(zod@4.6.7)
+      '@containerbase/base': 14.66.5(zod@4.6.7)
       debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
@@ -5903,7 +5888,7 @@ snapshots:
       type-fest: 5.10.0
       uint8array-extras: 1.6.0
 
-  got@16.1.0:
+  got@16.2.0:
     dependencies:
       '@sindresorhus/is': 8.1.0
       byte-counter: 0.1.0
@@ -7114,7 +7099,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.221.4(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.221.5(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7189,7 +7174,7 @@ snapshots:
       glob: 13.0.6
       global-agent: 3.0.0
       google-auth-library: 11.3.2(supports-color@7.2.0)
-      got: 16.1.0
+      got: 16.2.0
       graph-data-structure: 4.5.0
       handlebars: 4.7.10
       ignore: 7.0.14
