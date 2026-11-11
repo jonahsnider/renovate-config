@@ -185,8 +185,8 @@ importers:
         specifier: 3.16.0
         version: 3.16.0
       renovate:
-        specifier: 44.227.2
-        version: 44.227.2(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.227.3
+        version: 44.227.3(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@7.0.2)
@@ -2506,8 +2506,8 @@ packages:
     resolution: {integrity: sha512-+Az7Ojz3iRGu8KYMvJ6xVhvrxP3eE+vEtJX75Ow88XBpcQNV/0lGX5ZynIIBftREo4DC2jsveAMDaeltmm8QvQ==}
     hasBin: true
 
-  markdown-table@3.0.4:
-    resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
+  markdown-table@3.1.0:
+    resolution: {integrity: sha512-xpeSCdM+B+6P3ncfgaB7FoDbtJ30xAe6Z18TGT7AgXJsHqCElCICZovQqdRMm7kHgpTyYv36EupqewoFFSB8vw==}
 
   marked-terminal@7.3.0:
     resolution: {integrity: sha512-t4rBvPsHc57uE/2nJOLmMbZCQ4tgAccAED3ngXQqW6g+TxA488JzJ+FK3lQkzBQOI1mRV/r/Kq+1ZlJ4D0owQw==}
@@ -3250,8 +3250,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.227.2:
-    resolution: {integrity: sha512-cXdzFI0u/WguuRDle4r2c5EOBSSKrHNoMgY/jYdka7wyqnrouLeLhqcgOWkTOtuT/qCraKRlrTlinj7/1U6QcA==}
+  renovate@44.227.3:
+    resolution: {integrity: sha512-HEmqcvRRf+O644mUrcxmUDbyKDNb+o6yzeErrnp7EhaZ5eAjVhzGMtYpO1EhNDSlvi87NOc5857T/pwO2DnwEg==}
     engines: {node: ^24.11.0 || ^26.13.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -6243,7 +6243,7 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 3.0.0
 
-  markdown-table@3.0.4: {}
+  markdown-table@3.1.0: {}
 
   marked-terminal@7.3.0(marked@15.0.12):
     dependencies:
@@ -6318,7 +6318,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      markdown-table: 3.0.4
+      markdown-table: 3.1.0
       mdast-util-from-markdown: 2.0.3(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
@@ -7108,7 +7108,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.227.2(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.227.3(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7196,7 +7196,7 @@ snapshots:
       klona: 2.0.6
       luxon: 3.7.2
       markdown-it: 15.0.3
-      markdown-table: 3.0.4
+      markdown-table: 3.1.0
       minimatch: 10.2.6
       moo: 0.5.3
       ms: 2.1.3
