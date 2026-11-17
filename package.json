@@ -30,7 +30,7 @@
 		"@codemod.com/jssg-types": "1.6.3",
 		"codemod": "1.18.7",
 		"oxfmt": "0.79.0",
-		"oxlint": "1.93.0",
+		"oxlint": "1.94.0",
 		"railway": "3.17.0",
 		"renovate": "44.243.0",
 		"semantic-release": "26.0.1",
