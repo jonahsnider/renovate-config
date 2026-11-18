@@ -49,6 +49,11 @@
 			"matchUpdateTypes": ["digest", "patch", "minor", "major"]
 		},
 		{
+			"description": "Keep the Vite+ core alias major bumps (e.g. 1.x to 8.x) in the same branch as Vite+",
+			"matchSourceUrls": ["https://github.com/voidzero-dev/vite-plus", "https://github.com/vitest-dev/vitest"],
+			"separateMajorMinor": false
+		},
+		{
 			"groupName": "drizzle",
 			"matchPackageNames": ["drizzle-*"]
 		},
