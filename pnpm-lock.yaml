@@ -194,8 +194,8 @@ importers:
         specifier: 3.17.0
         version: 3.17.0
       renovate:
-        specifier: 44.257.6
-        version: 44.257.6(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.257.7
+        version: 44.257.7(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 26.0.1
         version: 26.0.1(supports-color@7.2.0)
@@ -402,15 +402,6 @@ packages:
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
-
-  '@containerbase/base@14.68.0':
-    resolution: {integrity: sha512-EweXsQMg5GkLO2jYL/8mhKVx4+8swLyjIr/RKzrOwW0OnbFFeUGbFIi1ICXOcT0uLL9vX5ibKfblIOcXok246Q==}
-    engines: {node: '>=24.10.0'}
-    peerDependencies:
-      zod: ^4.0.0
-    peerDependenciesMeta:
-      zod:
-        optional: true
 
   '@containerbase/base@14.68.3':
     resolution: {integrity: sha512-PiUE8GjftYvVZ1z+XEhGCDestdOFnpzTk8EQ3wdrH4BvpJ4kXMTsqG4BUIwi1ui9dBDFOq5ICESFNy5PA555NA==}
@@ -3235,8 +3226,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.257.6:
-    resolution: {integrity: sha512-pPRUKOUQlx5UDL0ISRegEE9pxEahqiVxO0FJDS1DGSSGnb+kGx88BQK81IkU4w1eDJCWk0+7/oC3NLnPSpfSKw==}
+  renovate@44.257.7:
+    resolution: {integrity: sha512-Y2JW04TANbkuECpkdRAgUPXyYdbA5FVGYaY3iRfHoermLnRrkaN/+ZvKe3pbAeg+hjPx4QFONUoeTS07hk1fhA==}
     engines: {node: ^24.11.0 || ^26.13.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3469,9 +3460,9 @@ packages:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
 
-  strip-json-comments@5.0.3:
-    resolution: {integrity: sha512-1tB5mhVo7U+ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw==}
-    engines: {node: '>=14.16'}
+  strip-json-comments@5.1.0:
+    resolution: {integrity: sha512-ErcwpJBYr8EfX/Br7JauOIGXoRE92w0hVtuS9j92UFgbATxA+WRSIZksSUDzEeItfWB/0QCEprTZT55RSINUHQ==}
+    engines: {node: '>=22'}
 
   super-regex@1.1.0:
     resolution: {integrity: sha512-WHkws2ZflZe41zj6AolvvmaTrWds/VuyeYr9iPVv/oQeaIoVxMKaushfFWpOGDT+GuBrM/sVqF8KUCYQlSSTdQ==}
@@ -4150,12 +4141,6 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@containerbase/base@14.68.0(zod@4.6.7)':
-    dependencies:
-      semver: 7.8.6
-    optionalDependencies:
-      zod: 4.6.7
-
   '@containerbase/base@14.68.3(zod@4.6.7)':
     dependencies:
       semver: 7.8.6
@@ -4687,7 +4672,7 @@ snapshots:
 
   '@renovatebot/osv-offline-db@4.5.10(supports-color@7.2.0)(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.68.0(zod@4.6.7)
+      '@containerbase/base': 14.68.3(zod@4.6.7)
       debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
@@ -7073,7 +7058,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.257.6(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.257.7(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7187,7 +7172,7 @@ snapshots:
       simple-git: 4.0.2(supports-color@7.2.0)
       slugify: 1.6.9
       source-map-support: 0.5.21
-      strip-json-comments: 5.0.3
+      strip-json-comments: 5.1.0
       tar: 7.5.23
       toml-eslint-parser: 1.0.3
       upath: 3.0.8
@@ -7450,7 +7435,7 @@ snapshots:
 
   strip-json-comments@2.0.1: {}
 
-  strip-json-comments@5.0.3: {}
+  strip-json-comments@5.1.0: {}
 
   super-regex@1.1.0:
     dependencies:
