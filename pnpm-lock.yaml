@@ -204,8 +204,8 @@ importers:
         specifier: 3.18.0
         version: 3.18.0
       renovate:
-        specifier: 44.264.1
-        version: 44.264.1(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 45.1.0
+        version: 45.1.0(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 26.0.1
         version: 26.0.1(supports-color@7.2.0)
@@ -413,15 +413,6 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@containerbase/base@14.70.0':
-    resolution: {integrity: sha512-2jgXI/w0+GRGcpONzxuHgbL2knEnImgNEd5Zflc7QapQY0TvEhaC4DKVv+Y1HNttCTph8eJ+PbU97Gv66r+JYg==}
-    engines: {node: '>=24.10.0'}
-    peerDependencies:
-      zod: ^4.0.0
-    peerDependenciesMeta:
-      zod:
-        optional: true
-
   '@containerbase/base@15.0.1':
     resolution: {integrity: sha512-C30i7Jb/q5/TOSXyAp97vn7Obnrqe63cgSlaExZeYc77fpRSSphQOlMM4PgAujbqUeA4gRSlZy6uAEKScuySWg==}
     engines: {node: '>=24.10.0'}
@@ -460,6 +451,9 @@ packages:
   '@isaacs/fs-minipass@4.0.1':
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
     engines: {node: '>=18.0.0'}
+
+  '@isaacs/nonrecursive-glob-match@1.1.0':
+    resolution: {integrity: sha512-GPm/Dbvk5RLmhRnxXIa7nTpK0xtl4E0wj0MslsuNiJ1FIROU+2+9lgUC/dgF7Ey4QCWhfEsgxilMRMCdHPfDfw==}
 
   '@js-sdsl/ordered-map@4.4.2':
     resolution: {integrity: sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==}
@@ -1040,8 +1034,8 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@renovatebot/base-image@13.178.1':
-    resolution: {integrity: sha512-mHM41YPyvAOkifWk5dy0+5+ImlBAvkB+jkuil2wu0Os8Kmx/mBtvFumVZRTxZVPUZXXjveGRcgTYKVDz5oTGdA==}
+  '@renovatebot/base-image@14.1.0':
+    resolution: {integrity: sha512-3EOb6egNugi94+x/mIQwpZib8AD3ApzTLsoIowclswgz3ebx0GkZbZNH7g0Vv2Hk+T/NdoM83gd45T46h+mtsQ==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -1504,6 +1498,10 @@ packages:
 
   brace-expansion@5.0.9:
     resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
+    engines: {node: 20 || >=22}
+
+  brace-expansion@5.1.0:
+    resolution: {integrity: sha512-aa11Dv491GKnYqxaul3aRJ0szew7yMJMfZPnqD44NjGrZXoj62l41OEDDpdpC4eE2P88vBFfLuSyRhpG91NUvg==}
     engines: {node: 20 || >=22}
 
   braces@3.0.3:
@@ -2117,6 +2115,10 @@ packages:
     resolution: {integrity: sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==}
     engines: {node: 18 || 20 || >=22}
 
+  glob@14.0.6:
+    resolution: {integrity: sha512-OwXjVP2svY5EyLY75Vek96C8qK43gqrt4xsZ+qSILdnaEiJPXkd62mcfUSNx/TQErQRdu5uM5kF67sfONragKw==}
+    engines: {node: 18 || 20 || >=22}
+
   glob@6.0.4:
     resolution: {integrity: sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A==}
     deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
@@ -2695,6 +2697,10 @@ packages:
     resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
     engines: {node: 18 || 20 || >=22}
 
+  minimatch@11.0.9:
+    resolution: {integrity: sha512-KCFkfyjqerNlSstjlhIGNXIKZGA/6O4V4RlhZ+Dsr621SPPw0mzlypE9D9ZOoPiVefHID+j7/XuMMlqfD/F60Q==}
+    engines: {node: 20 || >=22}
+
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
@@ -3103,6 +3109,10 @@ packages:
     resolution: {integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==}
     engines: {node: 18 || 20 || >=22}
 
+  path-scurry@3.0.0:
+    resolution: {integrity: sha512-1pTbQqH1wIwMi/eleQ5leFTTCkzFsPcgXNjwOA8YGGW/W4/kHT3dssE7Z6NH+zuqNLOzOB0uaD61yl7cAcVhgg==}
+    engines: {node: 18 || 20 || >=22}
+
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
@@ -3245,9 +3255,9 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.264.1:
-    resolution: {integrity: sha512-7NX/VgFJqoN8s8Yau4zuyM50ORrbzL81AR2YHHKphF5HuvNMeBhSgBCK98V9n8y3l+ABKKr9NPv6Vjr1YnqJdg==}
-    engines: {node: ^24.11.0 || ^26.13.0, pnpm: ^11.0.0}
+  renovate@45.1.0:
+    resolution: {integrity: sha512-KPMcm7QrfObWmIwG7v3Huuzz5I5Ah6+vhYsm92muXsoLTerM3YOejBFapRFvK40gRUB6KGVeMoe2tyhj4fKZMw==}
+    engines: {node: ^24.22.3 || ^26.13.1, pnpm: ^11.0.0}
     hasBin: true
 
   require-directory@2.1.1:
@@ -4160,12 +4170,6 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@containerbase/base@14.70.0(zod@4.6.7)':
-    dependencies:
-      semver: 7.8.6
-    optionalDependencies:
-      zod: 4.6.7
-
   '@containerbase/base@15.0.1(zod@4.6.7)':
     dependencies:
       semver: 7.8.6
@@ -4204,6 +4208,8 @@ snapshots:
   '@isaacs/fs-minipass@4.0.1':
     dependencies:
       minipass: 7.1.3
+
+  '@isaacs/nonrecursive-glob-match@1.1.0': {}
 
   '@js-sdsl/ordered-map@4.4.2': {}
 
@@ -4675,9 +4681,9 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.10.0
 
-  '@renovatebot/base-image@13.178.1(zod@4.6.7)':
+  '@renovatebot/base-image@14.1.0(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.70.0(zod@4.6.7)
+      '@containerbase/base': 15.0.1(zod@4.6.7)
     optionalDependencies:
       zod: 4.6.7
 
@@ -5166,6 +5172,10 @@ snapshots:
       balanced-match: 1.0.2
 
   brace-expansion@5.0.9:
+    dependencies:
+      balanced-match: 4.0.4
+
+  brace-expansion@5.1.0:
     dependencies:
       balanced-match: 4.0.4
 
@@ -5828,6 +5838,12 @@ snapshots:
       minimatch: 10.2.6
       minipass: 7.1.3
       path-scurry: 2.0.2
+
+  glob@14.0.6:
+    dependencies:
+      minimatch: 11.0.9
+      minipass: 7.1.3
+      path-scurry: 3.0.0
 
   glob@6.0.4:
     dependencies:
@@ -6571,6 +6587,11 @@ snapshots:
     dependencies:
       brace-expansion: 5.0.9
 
+  minimatch@11.0.9:
+    dependencies:
+      '@isaacs/nonrecursive-glob-match': 1.1.0
+      brace-expansion: 5.1.0
+
   minimatch@3.1.5:
     dependencies:
       brace-expansion: 1.1.18
@@ -6903,6 +6924,11 @@ snapshots:
       lru-cache: 11.5.3
       minipass: 7.1.3
 
+  path-scurry@3.0.0:
+    dependencies:
+      lru-cache: 11.5.3
+      minipass: 7.1.3
+
   path-type@4.0.0: {}
 
   pend@1.2.0: {}
@@ -7083,7 +7109,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.264.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@45.1.0(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -7116,7 +7142,7 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.3.1(@opentelemetry/api@1.10.0)
-      '@renovatebot/base-image': 13.178.1(zod@4.6.7)
+      '@renovatebot/base-image': 14.1.0(zod@4.6.7)
       '@renovatebot/detect-tools': 5.0.0
       '@renovatebot/good-enough-parser': 4.0.3
       '@renovatebot/osv-offline': 4.5.11(supports-color@7.2.0)(zod@4.6.7)
@@ -7155,7 +7181,7 @@ snapshots:
       fs-extra: 11.4.1
       git-url-parse: 16.1.0
       github-url-from-git: 1.5.0
-      glob: 13.0.6
+      glob: 14.0.6
       global-agent: 3.0.0
       google-auth-library: 11.3.4(supports-color@7.2.0)
       got: 16.2.0
@@ -7172,7 +7198,7 @@ snapshots:
       luxon: 3.7.2
       markdown-it: 15.0.3
       markdown-table: 3.1.0
-      minimatch: 10.2.6
+      minimatch: 11.0.9
       moo: 0.5.3
       ms: 2.1.3
       neotraverse: 1.0.2
