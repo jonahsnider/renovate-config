@@ -31,7 +31,7 @@
 		"codemod": "1.18.7",
 		"oxfmt": "0.80.0",
 		"oxlint": "1.95.0",
-		"railway": "3.19.0",
+		"railway": "3.19.1",
 		"renovate": "45.1.1",
 		"semantic-release": "26.0.1",
 		"typescript": "7.0.2"
