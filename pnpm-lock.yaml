@@ -204,8 +204,8 @@ importers:
         specifier: 3.19.0
         version: 3.19.0
       renovate:
-        specifier: 45.1.0
-        version: 45.1.0(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 45.1.1
+        version: 45.1.1(supports-color@7.2.0)(typanion@3.14.0)
       semantic-release:
         specifier: 26.0.1
         version: 26.0.1(supports-color@7.2.0)
@@ -1495,10 +1495,6 @@ packages:
 
   brace-expansion@2.1.4:
     resolution: {integrity: sha512-hGfVzPxthbf3+2yjg/RBs60cB0FhqBS/zvdV/4wn4/BmN0bNMMHPc4V/BbFieqf1TKAGGAHnY4eSjajCl0f2Xg==}
-
-  brace-expansion@5.0.9:
-    resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
-    engines: {node: 20 || >=22}
 
   brace-expansion@5.1.0:
     resolution: {integrity: sha512-aa11Dv491GKnYqxaul3aRJ0szew7yMJMfZPnqD44NjGrZXoj62l41OEDDpdpC4eE2P88vBFfLuSyRhpG91NUvg==}
@@ -3255,8 +3251,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@45.1.0:
-    resolution: {integrity: sha512-KPMcm7QrfObWmIwG7v3Huuzz5I5Ah6+vhYsm92muXsoLTerM3YOejBFapRFvK40gRUB6KGVeMoe2tyhj4fKZMw==}
+  renovate@45.1.1:
+    resolution: {integrity: sha512-A8XPKLB6hlqAgT55uWQeoauTbUXUE0eJaHp8aT04LVG81vTaUfFqiiql625wZWR8vneS4RLq+coJXWRuALBJTA==}
     engines: {node: ^24.22.3 || ^26.13.1, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5171,10 +5167,6 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  brace-expansion@5.0.9:
-    dependencies:
-      balanced-match: 4.0.4
-
   brace-expansion@5.1.0:
     dependencies:
       balanced-match: 4.0.4
@@ -6585,7 +6577,7 @@ snapshots:
 
   minimatch@10.2.6:
     dependencies:
-      brace-expansion: 5.0.9
+      brace-expansion: 5.1.0
 
   minimatch@11.0.9:
     dependencies:
@@ -7109,7 +7101,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@45.1.0(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@45.1.1(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
